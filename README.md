@@ -26,8 +26,11 @@
 <summary><b> ✐ Contáctos</b></summary>
 
 🜸 https://wa.me/5218713339906
+
 🜸 https://wa.me/5351524614
+
 🜸 https://wa.me/573205853665
+
 🜸 https://wa.me/573106909511
 
 </details>
@@ -187,32 +190,32 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 ---
 
-#### **`⏏️ ACTIVAR EN KOYEB`**
-[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/OfcKing/YaemoriBot-MD&branch=master&name=yaemoribot-md)
+#### **`✐ ACTIVAR EN KOYEB`**
+[![🜸 Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/OfcKing/YaemoriBot-MD&branch=master&name=yaemoribot-md)
 
 ---
 
-#### **`☁️ ACTIVAR EN RENDER`**
-[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FOfcKing%2FYaemoriBot-MD)
+#### **`✐ ACTIVAR EN RENDER`**
+[![🜸 Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FOfcKing%2FYaemoriBot-MD)
 
 ---
 
-##### **`💻 PARA USUARIOS DE WINDOWS/VPS/RDP`**
+##### **`✐ PARA USUARIOS DE WINDOWS/VPS/RDP`**
 
 <details>
- <summary><b> ⚡️ Instalacion</b></summary>
+ <summary><b> 🜸 Instalacion</b></summary>
 
-* Descargar e instala Git [`Aquí`](https://git-scm.com/downloads)
-* Descargar e instala NodeJS [`Aquí`](https://nodejs.org/en/download)
-* Descargar e instala FFmpeg [`Aquí`](https://ffmpeg.org/download.html) (**No olvide agregar FFmpeg a la variable de entorno PATH**)
-* Descargar e instala ImageMagick [`Aquí`](https://imagemagick.org/script/download.php)
-* Descargar e instala Yarn [`Aquí`](https://classic.yarnpkg.com/en/docs/install#windows-stable)
+✐ Descargar e instala Git [`🜸 Aquí`](https://git-scm.com/downloads)
+✐ Descargar e instala NodeJS [`🜸 Aquí`](https://nodejs.org/en/download)
+✐ Descargar e instala FFmpeg [`🜸 Aquí`](https://ffmpeg.org/download.html) (**✐ No olvide agregar FFmpeg a la variable de entorno PATH**)
+✐ Descargar e instala ImageMagick [`🜸 Aquí`](https://imagemagick.org/script/download.php)
+✐ Descargar e instala Yarn [`🜸 Aquí`](https://classic.yarnpkg.com/en/docs/install#windows-stable)
 ```bash
-> git clone https://github.com/OfcKing/YaemoriBot-MD
+> git clone https://github.com/Nimodo83/Yue-Bot 
 ```
 
 ```bash
-> cd YaemoriBot-MD && npm install 
+> cd Yue-Bot && npm install 
 ```
 
 ```bash
@@ -221,21 +224,21 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 </details>
 
-##### **`💻 INSTALACION DE FFMPEG PARA WINDOWS`**
+##### **`✐ INSTALACION DE FFMPEG PARA WINDOWS`**
 
 <details>
- <summary><b> ⚡️ Instalacion</b></summary>
+ <summary><b> 🜸 Instalacion</b></summary>
 
-* Descarga cualquiera de las versiones de FFmpeg disponibles haciendo clic en [FFmpeg](https://www.gyan.dev/ffmpeg/builds/).
-* Extraer archivos a `C:\` path.
-* Cambie el nombre de la carpeta extraída a `ffmpeg`.
-* Ejecute el símbolo del sistema como administrador.
-* Ejecute el siguiente comando:
+✐ Descarga cualquiera de las versiones de FFmpeg disponibles haciendo clic en [🜸 FFmpeg](https://www.gyan.dev/ffmpeg/builds/).
+✐ Extraer archivos a `C:\` path.
+✐ Cambie el nombre de la carpeta extraída a `ffmpeg`.
+✐ Ejecute el símbolo del sistema como administrador.
+✐ Ejecute el siguiente comando:
 ```cmd
 > setx /m PATH "C:\ffmpeg\bin;%PATH%"
 ```
-Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
-* Ahora que tiene FFmpeg instalado, verifique que funcionó ejecutando este comando para ver la versión:
+✐ Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
+✐ Ahora que tiene FFmpeg instalado, verifique que funcionó ejecutando este comando para ver la versión:
 ```cmd
 > ffmpeg -version
 ```
@@ -244,29 +247,28 @@ Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
 
 ---
 
-## **`🔗 Enlaces útiles`**
+## **`✐ Enlaces útiles`**
 
-| APP | TIPO | ENLACE |
+|✐ APP |🜸 TIPO |✰ ENLACE |
 |------|-------------|-------|
-| WhatsApp | Canal | [¡Click aquí!](https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A) |
-| WhatsApp | Grupo Oficial | [¡Click aquí!](https://chat.whatsapp.com/DBV1zXbwYjL43uuI6s2Rhu) |
-| WhatsApp | Canal Test | [¡Click aquí!](https://whatsapp.com/channel/0029VayCRH2Jf05m1wzaBi1Y) |
-| WhatsApp | Canal Team | [¡Click aquí!](https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A) |
-| WhatsApp | Asistente | [¡Click aquí!](wa.me/573218138672) |
+|✐ WhatsApp |🜸 Canal |✰ [¡Click aquí!](https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A) |
+|✐ WhatsApp |🜸 Grupo Oficial |✰ [¡Click aquí!](https://chat.whatsapp.com/DBV1zXbwYjL43uuI6s2Rhu) |
+|✐ WhatsApp |🜸 Canal Test |✰ [¡Click aquí!](https://whatsapp.com/channel/0029VayCRH2Jf05m1wzaBi1Y) |
+|✐ WhatsApp |🜸 Asistente |✰ [¡Click aquí!](wa.me/573218138672) |
 
 ---
 
 ### **`🌴 COLABORADORES`**
-<a href="https://github.com/OfcKing/YaemoriBot-MD/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=OfcKing/YaemoriBot-MD" /> 
+<a href="https://github.com/Nimodo83/Yue-Bot/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=Nimodo83/Yue-Bot" /> 
 </a>
 
 ### **`👑 PROPIETARIO`**
 <a
-href="https://github.com/OfcKing"><img src="https://github.com/OfcKing.png" width="130" height="130" alt="DevDiego"/></a>
+href="https://github.com/Nimodo83"><img src="https://github.com/Nimodo83.png" width="130" height="130" alt="ઈ𓅇𝐂𝐮𝐞𝐫𝐯𝐨𝐎𝐅𝐂𓆰ࣩ֟፝𓆪"/></a>
 
 ### **`🌹 CREDITOS`**
 <a
-href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="130" height="130" alt="GataDios"/></a>
+href="https://github.com/OfcKing"><img src="https://github.com/OfcKing.png" width="130" height="130" alt="Dev-Diego"/></a>
 
-[© Powered By Infinity-Wa ⚡︎](https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A)
+[© Powered By Cuervo-Team-Supreme ✰](https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A)
