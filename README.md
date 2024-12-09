@@ -1,18 +1,18 @@
-<h2 align="center">Yaemori Bot - MD ✨️🌸</h2>
+<h2 align="center">✐ Yue-Bot</h2>
 
-<p align="center">🌹 WhatsApp Bot Node-Js.</p>
+<p align="center">🜸 WhatsApp Bot Node-Js.</p>
 </p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF00FF&lines=©+YaemoriBot-MD;©+Powered+By+DevDiego+💫)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF00FF&lines=©+Yue-Bot;©+Powered+By+ઈ𓅇𝐂𝐮𝐞𝐫𝐯𝐨𝐎𝐅𝐂𓆰ࣩ֟፝𓆪)](https://git.io/typing-svg)
 
-![Yaemori](https://qu.ax/oTXDG.jpg)
+![YueBot](https://files.catbox.moe/4d5ba7.jpg)
 
 ---
 
 ### **`❕️ Información importante`**
 
 <details>
- <summary><b> 🌴 Info Bot</b></summary>
+ <summary><b> ✐ Info Bot</b></summary>
 
 * Este proyecto **no está afiliado de ninguna manera** con `WhatsApp`, `Inc. WhatsApp` es una marca registrada de `WhatsApp LLC`, y este bot es un **desarrollo independiente** que **no tiene ninguna relación oficial con la compañía**.
 
@@ -20,12 +20,11 @@
 
 ---
 
-### **`💭 Contáctanos`**
+### **`✐ Contáctanos`**
 
 <details>
-<summary><b> 🌹 Contáctos</b></summary>
+<summary><b> ✐ Contáctos</b></summary>
 
-* theyaemoribot@gmail.com
 * https://wa.me/5218713339906
 * https://wa.me/5351524614
 * https://wa.me/573205853665
@@ -35,19 +34,17 @@
 
 ---
 
-### ☁️ SKY ULTRA PLUS
-<a href="https://dash.corinplus.com"><img src="https://qu.ax/zFzXF.png" height="125px"></a>
+### ✐ HostingPy
+<a href="https://dahs.hostingpy.shop"><img src="https://qu.ax/zFzXF.png" height="125px"></a>
 
 <details>
  <summary><b>:paperclip: Enlaces Importantes</b></summary>
 
-- **Dashboard:** [`Aquí`](https://dash.skyultraplus.com)
-- **Panel:** [`Aquí`](https://panel.skyultraplus.com)
-- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
-- **Comunidad:** [`Aquí`](https://chat.whatsapp.com/JPwcXvPEUwlEOyjI3BpYys)
-- **Contacto(s):** 
-[`Gata Dios`](https://wa.me/message/B3KTM5XN2JMRD1)  [`Russell`](https://api.whatsapp.com/send/?phone=15167096032&text&type=phone_number&app_absent=0)
-- **Discord:** [`SkyUltraPlus`](https://discord.gg/Ph4eWsZ8)
+- **✐ Dashboard:** [`🜸 Aquí`](https://dahs.hostingpy.shop)
+- **✐ Panel:** [`🜸 Aquí`](https://panel.hostingpy.shop)
+- **✐ Canal de WhatsApp:** [`🜸 Aquí`](https://whatsapp.com/channel/0029Vak4e1R4NVifmh8Tvi3q)
+- **✐ Contacto(s):** 
+[`🜸 Adrian`](https://wa.me/)
 
 <details>
 <summary>☁️ Ajustes del Servidor - YaemoriBot</summary><img src="https://qu.ax/CepDu.jpg">
