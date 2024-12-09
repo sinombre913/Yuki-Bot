@@ -236,6 +236,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
  <summary><b> 🜸 Instalacion</b></summary>
 
 ✐ Descarga cualquiera de las versiones de FFmpeg disponibles haciendo clic en [🜸 FFmpeg](https://www.gyan.dev/ffmpeg/builds/).
+
 ✐ Extraer archivos a `C:\` path.
 
 ✐ Cambie el nombre de la carpeta extraída a `ffmpeg`.
