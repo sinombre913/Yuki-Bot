@@ -50,9 +50,9 @@ const isImageValid = (buffer) => {
   return false; 
 };
 
-handler.help = ['setcatalogo'];
+handler.help = ['setbanner'];
 handler.tags = ['tools'];
-handler.command = ['setcatalogo'];
+handler.command = ['setbanner'];
 handler.owner = false;
 
 export default handler;
