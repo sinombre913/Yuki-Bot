@@ -206,9 +206,15 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
  <summary><b> 🜸 Instalacion</b></summary>
 
 ✐ Descargar e instala Git [`🜸 Aquí`](https://git-scm.com/downloads)
+
 ✐ Descargar e instala NodeJS [`🜸 Aquí`](https://nodejs.org/en/download)
-✐ Descargar e instala FFmpeg [`🜸 Aquí`](https://ffmpeg.org/download.html) (**✐ No olvide agregar FFmpeg a la variable de entorno PATH**)
+
+✐ Descargar e instala FFmpeg [`🜸 Aquí`](https://ffmpeg.org/download.html) 
+
+(**✐ No olvide agregar FFmpeg a la variable de entorno PATH**)
+
 ✐ Descargar e instala ImageMagick [`🜸 Aquí`](https://imagemagick.org/script/download.php)
+
 ✐ Descargar e instala Yarn [`🜸 Aquí`](https://classic.yarnpkg.com/en/docs/install#windows-stable)
 ```bash
 > git clone https://github.com/Nimodo83/Yue-Bot 
