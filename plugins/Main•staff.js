@@ -22,7 +22,12 @@ let staff = `✐ *EQUIPO DE AYUDANTES*
 🜸 Ian
 🜸 *Rol:* Developer
 🜸 *Número:* wa.me/5493876639332
-🜸 *GitHub:* https://github.com/ianalejandrook15x/`
+🜸 *GitHub:* https://github.com/ianalejandrook15x/
+
+🜸 Abrahan-m
+🜸 *Rol:* Developer 
+🜸 *Número:* wa.me/573237649689
+🜸 *GitHub:* https://github.com/Abrahan987`
 await conn.sendFile(m.chat, catalogo, 'yotsuba.jpg', staff.trim(), fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
