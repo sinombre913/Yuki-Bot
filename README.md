@@ -282,4 +282,4 @@ href="https://github.com/Nimodo83"><img src="https://github.com/Nimodo83.png" wi
 <a
 href="https://github.com/OfcKing"><img src="https://github.com/OfcKing.png" width="130" height="130" alt="Dev-Diego"/></a>
 
-[© Powered By Cuervo-Team-Supreme ✰](https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A)
+[© Powered By Cuervo-Team-Supreme ✰](https://whatsapp.com/channel/0029VaMi8cn9cDDQaoeY7P3u)
