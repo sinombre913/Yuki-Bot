@@ -262,23 +262,23 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 |✐ APP |🜸 TIPO |✰ ENLACE |
 |------|-------------|-------|
-|✐ WhatsApp |🜸 Canal |✰ [¡Click aquí!](https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A) |
-|✐ WhatsApp |🜸 Grupo Oficial |✰ [¡Click aquí!](https://chat.whatsapp.com/DBV1zXbwYjL43uuI6s2Rhu) |
-|✐ WhatsApp |🜸 Canal Test |✰ [¡Click aquí!](https://whatsapp.com/channel/0029VayCRH2Jf05m1wzaBi1Y) |
-|✐ WhatsApp |🜸 Asistente |✰ [¡Click aquí!](wa.me/573218138672) |
+|✐ WhatsApp |🜸 Canal |✰ [¡Click aquí!]() |
+|✐ WhatsApp |🜸 Grupo Oficial |✰ [¡Click aquí!]() |
+|✐ WhatsApp |🜸 Canal Test |✰ [¡Click aquí!]() |
+|✐ WhatsApp |🜸 Asistente |✰ [¡Click aquí!](wa.me/) |
 
 ---
 
-### **`🌴 COLABORADORES`**
+### **`✰ COLABORADORES`**
 <a href="https://github.com/Nimodo83/Yue-Bot/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=Nimodo83/Yue-Bot" /> 
 </a>
 
-### **`👑 PROPIETARIO`**
+### **`✐ PROPIETARIO`**
 <a
 href="https://github.com/Nimodo83"><img src="https://github.com/Nimodo83.png" width="130" height="130" alt="ઈ𓅇𝐂𝐮𝐞𝐫𝐯𝐨𝐎𝐅𝐂𓆰ࣩ֟፝𓆪"/></a>
 
-### **`🌹 CREDITOS`**
+### **`🜸 CREDITOS`**
 <a
 href="https://github.com/OfcKing"><img src="https://github.com/OfcKing.png" width="130" height="130" alt="Dev-Diego"/></a>
 
