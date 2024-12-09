@@ -38,7 +38,7 @@
 ---
 
 ### ✐ HostingPy
-<a href="https://dahs.hostingpy.shop"><img src="https://qu.ax/zFzXF.png" height="125px"></a>
+<a href="https://dahs.hostingpy.shop"><img src="https://files.catbox.moe/y72e4j.jpg" height="125px"></a>
 
 <details>
  <summary><b>✰ Enlaces Importantes</b></summary>
@@ -50,7 +50,7 @@
 [`🜸 Adrian`](https://wa.me/)
 
 <details>
-<summary>✐ Ajustes del Servidor - Yue-Bot</summary><img src="https://qu.ax/CepDu.jpg">
+<summary>✐ Ajustes del Servidor - Yue-Bot</summary><img src="https://files.catbox.moe/8b91ry.jpg">
 
 </details>
 
