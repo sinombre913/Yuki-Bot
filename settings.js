@@ -56,7 +56,7 @@ global.welcom2 = 'Edita Con !setdespedida'
 global.welcom3 = 'Edita Con !seteliminada'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
-global.banner = fs.readFileSync('./src/imagen.jpg')
+global.banner = 'https://files.catbox.moe/8b91ry.jpg'
 global.catalogo = 'https://files.catbox.moe/4d5ba7.jpg'
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 global.enlace = 'https://whatsapp.com/channel/0029Vatvv7w2P59uIo6EHK3d'
