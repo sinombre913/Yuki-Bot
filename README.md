@@ -9,7 +9,7 @@
 
 ---
 
-### **`❕️ Información importante`**
+### **`✐ Información importante`**
 
 <details>
  <summary><b> ✐ Info Bot</b></summary>
@@ -25,10 +25,10 @@
 <details>
 <summary><b> ✐ Contáctos</b></summary>
 
-* https://wa.me/5218713339906
-* https://wa.me/5351524614
-* https://wa.me/573205853665
-* https://wa.me/573106909511
+🜸 https://wa.me/5218713339906
+🜸 https://wa.me/5351524614
+🜸 https://wa.me/573205853665
+🜸 https://wa.me/573106909511
 
 </details>
 
@@ -47,7 +47,7 @@
 [`🜸 Adrian`](https://wa.me/)
 
 <details>
-<summary>☁️ Ajustes del Servidor - YaemoriBot</summary><img src="https://qu.ax/CepDu.jpg">
+<summary>✐ Ajustes del Servidor - Yue-Bot</summary><img src="https://qu.ax/CepDu.jpg">
 
 </details>
 
@@ -55,12 +55,12 @@
 
 ---
 
-#### **`🚀 Instalación por termux`**
+#### **`✐ Instalación por termux`**
 
 <details>
- <summary><b> 🌸 Comandos</b></summary>
+ <summary><b> 🜸 Comandos</b></summary>
 
-#### **✨️ Instalación automatica por termux**
+#### **✐ Instalación automatica por termux**
 
 > Copia los códigos uno por uno, no los pegues todos juntos a la vez.
 
@@ -69,10 +69,10 @@ termux-setup-storage
 ```
 
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/OfcKing/YaemoriBot-MD/master/mini.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Nimodo83/Yue-Bot/master/yue.sh | bash
 ```
 
-#### **🌺 Instalación manual por termux**
+#### **✐ Instalación manual por termux**
 
 ```bash
 termux-setup-storage
@@ -87,7 +87,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/OfcKing/YaemoriBot-MD && cd YaemoriBot-MD 
+git clone https://github.com/Nimodo83/Yue-Bot && cd Yue-Bot
 ```
 
 ```bash
@@ -104,13 +104,13 @@ npm start
 
 ---
 
-#### **🟢 Activar en caso de detenerse en termux**
+#### **✐ Activar en caso de detenerse en termux**
 
 Si después de instalar el bot en Termux se detiene (pantalla en blanco, pérdida de conexión a Internet, reinicio del dispositivo), sigue estos pasos:
 
 1. Abre Termux y navega al directorio del bot:
     ```bash
-    cd YaemoriBot-MD
+    cd Yue-Bot
     ```
 
 2. Inicia el bot nuevamente:
@@ -120,18 +120,18 @@ Si después de instalar el bot en Termux se detiene (pantalla en blanco, pérdid
 
 ---
 
-#### **🍬 Obtener otro codigo qr en termux**
+#### **✐ Obtener otro codigo qr en termux**
 
 Si después de instalar el bot en Termux y iniciar la session del bot (el numero se va a soporte, se cierra la conexión o demorastes al conectar), sigue estos pasos:
 
 1. Abre Termux y navega al directorio del bot:
     ```bash
-    cd YaemoriBot-MD
+    cd Yue-Bot
     ```
 
 2. Elimina la carpeta MiniSession:
     ```bash
-    rm -rf MiniSession
+    rm -rf YueSession
     ```
 
 3. Inicia el bot nuevamente:
@@ -141,7 +141,7 @@ Si después de instalar el bot en Termux y iniciar la session del bot (el numero
 
 ---
 
-### **🤖 Para activar 24/7 (termux)**
+### **✐ Para activar 24/7 (termux)**
 
 > comando para obtener la bot 24/7 en termux
 
@@ -153,22 +153,20 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 ---
 
-#### **`💣 Instalación por cloudshell`**
+#### **`✐ Instalación por cloudshell`**
 
 <details>
- <summary><b> 🦎 Comandos</b></summary>
+ <summary><b> 🜸 Comandos</b></summary>
 
-[![blog](https://img.shields.io/badge/Video-Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
-](https://youtu.be/0JtOm_ie4CQ?si=kbL823AQmUhC3PmC)
 
-[`🚩 Instalar Cloud Shell Clic Aqui`](https://www.mediafire.com/file/bp2l6cci2p30hjv/Cloud+Shell_1.apk/file)
+[`🜸 Instalar Cloud Shell Clic Aqui`](https://www.mediafire.com/file/bp2l6cci2p30hjv/Cloud+Shell_1.apk/file)
 
 ```bash
-> git clone https://github.com/OfcKing/YaemoriBot-MD
+> git clone https://github.com/Nimodo83/Yue-Bot 
 ```
 
 ```bash
-> cd YaemoriBot-MD && yarn install
+> cd Yue-Bot && yarn install
 ```
 
 ```bash
@@ -183,9 +181,9 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 ---
 
-#### **`🌌 ACTIVAR EN CODESPACE`**
+#### **`✐ ACTIVAR EN CODESPACE`**
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=OfcKing/YaemoriBot-MD&ref=main&geo=UsEast)
+[![🜸 Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=OfcKing/YaemoriBot-MD&ref=main&geo=UsEast)
 
 ---
 
