@@ -41,7 +41,7 @@
 <a href="https://dahs.hostingpy.shop"><img src="https://qu.ax/zFzXF.png" height="125px"></a>
 
 <details>
- <summary><b>:paperclip: Enlaces Importantes</b></summary>
+ <summary><b>✰ Enlaces Importantes</b></summary>
 
 - **✐ Dashboard:** [`🜸 Aquí`](https://dahs.hostingpy.shop)
 - **✐ Panel:** [`🜸 Aquí`](https://panel.hostingpy.shop)
