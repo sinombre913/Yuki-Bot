@@ -262,9 +262,9 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 |✐ APP |🜸 TIPO |✰ ENLACE |
 |------|-------------|-------|
-|✐ WhatsApp |🜸 Canal |✰ [¡Click aquí!]() |
-|✐ WhatsApp |🜸 Grupo Oficial |✰ [¡Click aquí!]() |
-|✐ WhatsApp |🜸 Canal Test |✰ [¡Click aquí!]() |
+|✐ WhatsApp |🜸 Canal |✰ [¡Click aquí!](https://whatsapp.com/channel/0029VaMi8cn9cDDQaoeY7P3u) |
+|✐ WhatsApp |🜸 Grupo Oficial |✰ [¡Click aquí!](https://chat.whatsapp.com/BKVsY0Q1X8d6DWQVx3mp2J) |
+|✐ WhatsApp |🜸 Canal Test |✰ [¡Click aquí!](https://whatsapp.com/channel/0029Vatvv7w2P59uIo6EHK3d) |
 |✐ WhatsApp |🜸 Asistente |✰ [¡Click aquí!](wa.me/) |
 
 ---
