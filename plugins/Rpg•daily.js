@@ -11,7 +11,7 @@ global.db.data.users[m.sender].money += d
 let time = global.db.data.users[m.sender].lastclaim + 86400000 //12 Horas
 if (new Date - global.db.data.users[m.sender].lastclaim < 7200000) return conn.reply(m.chat, `🕚 *Vuelve en ${msToTime(time - new Date())}*`)
 global.db.data.users[m.sender].exp += exppremium ? prem : exp
-conn.reply(`✐ *Recompensa Diaria*
+conn.reply(m.chat, `✐ *Recompensa Diaria*
 
 🜸 ${moneda} : *+${d}*`, m)
 
