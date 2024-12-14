@@ -331,7 +331,7 @@ let handler = async (m, { conn, args }) => {
 ✐ *!script*
 > ➣ Datos del bot original.
 
-✐ *!hostingpy • !host*
+✐ *!hostingpy • !skyplus • !tk-host • !Hosting • !host*
 > ➣ El host oficial de ${botname}.
 
 ✐ *!ping • !p*
