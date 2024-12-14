@@ -76,7 +76,7 @@ Contacta Con ઈ𓅇𝐂𝐮𝐞𝐫𝐯𝐨𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐎𝐅
 [`🜸 Joan TK`](https://wa.me/51910234457)
 
 <details>
-<summary>✐ Ajustes del Servidor - Yue-Bot</summary><img src="https://files.catbox.moe/8b91ry.jpg">
+<summary>✐ Ajustes del Servidor - Yue-Bot</summary><img src="https://files.catbox.moe/akonrs.jpg">
 
 </details>
 
