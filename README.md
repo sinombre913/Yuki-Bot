@@ -88,7 +88,7 @@ Contacta Con ઈ𓅇𝐂𝐮𝐞𝐫𝐯𝐨𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐎𝐅
 ### ✐ SKY ULTRA PLUS 
 [![YouTube](https://img.shields.io/badge/SkyUltraPlus-Host-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/fZbcCLpSH6Y?si=1sDen7Bzmb7jVpAI)
 
-<a href="https://dash.skyultraplus.com"><img src="https://qu.ax/wbJoB.png" height="125px"></a>
+<a href="https://dash.skyultraplus.com"><img src="https://files.catbox.moe/xf6w5z.jpg" height="125px"></a>
 <details>
  <summary><b>✰ Enlaces Importantes</b></summary>
 
