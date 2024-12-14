@@ -55,7 +55,7 @@ Contacta Con ઈ𓅇𝐂𝐮𝐞𝐫𝐯𝐨𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐎𝐅
 [`🜸 Adrian`](https://wa.me/)
 
 <details>
-<summary>✐ Ajustes del Servidor - Yue-Bot</summary><img src="https://files.catbox.moe/8b91ry.jpg">
+<summary>✐ Ajustes del Servidor - Yue-Bot</summary><img src="https://files.catbox.moe/34lbi2.jpg">
 
 </details>
 
