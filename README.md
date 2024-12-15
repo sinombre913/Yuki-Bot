@@ -102,7 +102,7 @@ Contacta Con ઈ𓅇𝐂𝐮𝐞𝐫𝐯𝐨𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐎𝐅
 - **✐ Discord:** [`🜸 SkyUltraPlus`](https://discord.gg/Ph4eWsZ8)
 
 <details>
-<summary>✐ Ajustes del Servidor - Yue-Bot</summary><img src="https://files.catbox.moe/34lbi2.jpg">
+<summary>✐ Ajustes del Servidor - Yue-Bot</summary><img src="https://files.catbox.moe/lb0ns5.jpg">
  
 </details>
 
