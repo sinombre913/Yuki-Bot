@@ -31,7 +31,7 @@ case 'video': return `✐ *Título:*
 🜸 *Vistas:* 
 » ${v.views}`}}).filter(v => v).join('\n\n••••••••••••••••••••••••••••••••••••\n\n')
 
-conn.sendFile(m.chat, imgUrl, 'yts.jpeg', teks, fkontak, m)
+conn.sendFile(m.chat, imgUrl, 'yts.jpeg', teks, m)
 
 }
 handler.help = ['ytsearch']
