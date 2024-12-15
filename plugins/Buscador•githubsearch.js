@@ -1,3 +1,10 @@
+/* ARCHIVO EDITADO , CREADO O MEJORADO
+POR EL CUERVO 
+CUERVO-TEAM-SUPREME 
+SE DEJAN CREDITOS PERRAS ES DE CUERVO 
+USO NO PRIVADO ES PUBLICO
+PERO CUERVO SE ENCARGA 
+*/
 import fetch from 'node-fetch'
 const handler = async (m, {conn, text, usedPrefix, command}) => {
 if (!text) return conn.reply(m.chat, `✐ *Ingrese el nombre de un repositorio de github*\n\nEjemplo, ${usedPrefix + command} Yue-Bot`, m)
