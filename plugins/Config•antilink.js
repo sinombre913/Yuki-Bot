@@ -1,3 +1,10 @@
+/* ARCHIVO EDITADO , CREADO O MEJORADO
+POR EL CUERVO 
+CUERVO-TEAM-SUPREME 
+SE DEJAN CREDITOS PERRAS ES DE CUERVO 
+USO NO PRIVADO ES PUBLICO
+PERO CUERVO SE ENCARGA 
+*/
 let linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i;
 let linkRegex1 = /whatsapp.com\/channel\/([0-9A-Za-z]{20,24})/i;
 
