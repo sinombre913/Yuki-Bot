@@ -100,6 +100,10 @@ Contacta Con ઈ𓅇𝐂𝐮𝐞𝐫𝐯𝐨𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐎𝐅
 - **✐ Comunidad:** [`🜸 Aquí`](https://chat.whatsapp.com/JPwcXvPEUwlEOyjI3BpYys)
 - **✐ Contacto(s):** [`🜸 Gata Dios`](https://wa.me/message/B3KTM5XN2JMRD1) / [`🜸 Russell`](https://api.whatsapp.com/send/?phone=15167096032&text&type=phone_number&app_absent=0) / [`🜸 elrebelde21`](https://facebook.com/elrebelde21)
 - **✐ Discord:** [`🜸 SkyUltraPlus`](https://discord.gg/Ph4eWsZ8)
+
+<details>
+<summary>✐ Ajustes del Servidor - Yue-Bot</summary><img src="https://files.catbox.moe/34lbi2.jpg">
+ 
 </details>
 
 </details>
