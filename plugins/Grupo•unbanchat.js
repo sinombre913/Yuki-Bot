@@ -1,3 +1,10 @@
+/* ARCHIVO EDITADO , CREADO O MEJORADO
+POR EL CUERVO 
+CUERVO-TEAM-SUPREME 
+SE DEJAN CREDITOS PERRAS ES DE CUERVO 
+USO NO PRIVADO ES PUBLICO
+PERO CUERVO SE ENCARGA 
+*/
 let handler = async (m, { conn }) => {
 if (!(m.chat in global.db.data.chats)) return conn.reply(m.chat, '✐ *¡Este chat no está registrado!*', m)
 let chat = global.db.data.chats[m.chat]
