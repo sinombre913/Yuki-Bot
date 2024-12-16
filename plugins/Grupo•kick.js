@@ -1,3 +1,10 @@
+/* ARCHIVO EDITADO , CREADO O MEJORADO
+POR EL CUERVO 
+CUERVO-TEAM-SUPREME 
+SE DEJAN CREDITOS PERRAS ES DE CUERVO 
+USO NO PRIVADO ES PUBLICO
+PERO CUERVO SE ENCARGA 
+*/
 var handler = async (m, { conn, participants, usedPrefix, command }) => {
     if (!m.mentionedJid[0] && !m.quoted) {
         return conn.reply(m.chat, '✐ *Etiqueta o responde al mensaje de la persona que quieres eliminar*', m);
