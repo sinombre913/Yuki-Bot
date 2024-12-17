@@ -1,10 +1,5 @@
-/* ARCHIVO EDITADO , CREADO O MEJORADO
-POR EL CUERVO 
-CUERVO-TEAM-SUPREME 
-SE DEJAN CREDITOS PERRAS ES DE CUERVO 
-USO NO PRIVADO ES PUBLICO
-PERO CUERVO SE ENCARGA 
-*/
+// David-Chian >> https://github.com/David-Chian
+
 import fs from "fs";
 import { v4 as uuid } from "uuid";
 
