@@ -13,7 +13,7 @@ Contacta Con ઈ𓅇𝐂𝐮𝐞𝐫𝐯𝐨𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐎𝐅
 <a href="http://wa.me/5212722801554" target="blank"><img src="https://img.shields.io/badge/Cuervo-Support-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 ![YueBot](https://files.catbox.moe/4d5ba7.jpg)
 
-### **``Buenas Soy Cuervo El Editor Y Creador De Gran Parte Del Bot Para Decir Que Si Lo Vas A Editar Dejes Tu Estrella Y Disfruta De Borrar Los Créditos Que Están En Absolutamente Todo El Bot Adiós``**
+##### > **`Buenas Soy Cuervo El Editor Y Creador De Gran Parte Del Bot Para Decir Que Si Lo Vas A Editar Dejes Tu Estrella Y Disfruta De Borrar Los Créditos Que Están En Absolutamente Todo El Bot Adiós`**
 ---
 
 ### **`✐ Información importante`**
