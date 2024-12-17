@@ -34,7 +34,7 @@ let handler = async (m, { conn, args }) => {
         setTimeout(resolve, 1000)
       }) * 1000
     }
-    let muptime = clockString(_muptime)
+  let muptime = clockString(_muptime)
   // info usuario 
   let name2 = user.name || 'No especificado'
   let cumpleanos = user.birth || 'No especificado';
@@ -387,8 +387,8 @@ let handler = async (m, { conn, args }) => {
 𝄄 ✐ *!script*
 𝄄 ➣ Datos del bot original.
 𝄄
-𝄄 ✐ *!hostingpy • !host*
-𝄄 ➣ El host oficial de ${botname}.
+𝄄 ✐ *!hostingpy • !skyplus • !tk-host • !Hosting • !host*
+𝄄 ➣ Los hosts oficiales de ${botname}.
 𝄄
 𝄄 ✐ *!ping • !p*
 𝄄 ➣ La velocidad de ${botname}.
