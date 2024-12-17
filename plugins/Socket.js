@@ -1,3 +1,10 @@
+/* ARCHIVO EDITADO , CREADO O MEJORADO
+POR EL CUERVO 
+CUERVO-TEAM-SUPREME 
+SE DEJAN CREDITOS PERRAS ES DE CUERVO 
+USO NO PRIVADO ES PUBLICO
+PERO CUERVO SE ENCARGA 
+*/
 import { readdirSync, statSync, unlinkSync, existsSync, readFileSync, watch, rmSync, promises as fsPromises } from "fs";
 const fs = { ...fsPromises, existsSync };
 import path, { join } from 'path' 
