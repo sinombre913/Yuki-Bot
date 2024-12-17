@@ -1,3 +1,5 @@
+// OfcKing >> https://github.com/OfcKing
+
 import PhoneNumber from 'awesome-phonenumber';
 import axios from 'axios';
 import { createHash } from 'crypto';
