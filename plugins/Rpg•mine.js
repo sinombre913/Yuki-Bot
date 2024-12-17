@@ -8,7 +8,7 @@ att: Cuervo-Team-Supreme
 let cooldown = 14400000
 let handler = async (m, { conn }) => {
 
-  let hasil = Math.floor(Math.random() * 8000)
+  let hasil = Math.floor(Math.random() * 50)
   let user = global.db.data.users[m.sender]
   if (new Date - user.lastmiming < cooldown) throw m.reply(`✐ _Ya has minado regresa a la mina en_ *${msToTime((user.lastmiming + cooldown) - new Date())}*`);
   user.coin += hasil
