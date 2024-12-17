@@ -13,7 +13,6 @@ Contacta Con ઈ𓅇𝐂𝐮𝐞𝐫𝐯𝐨𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐎𝐅
 <a href="http://wa.me/5212722801554" target="blank"><img src="https://img.shields.io/badge/Cuervo-Support-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 ![YueBot](https://files.catbox.moe/4d5ba7.jpg)
 
-#### **`Buenas Soy Cuervo El Editor Y Creador De Gran Parte Del Bot Para Decir Que Si Lo Vas A Editar Dejes Tu Estrella Y Disfruta De Borrar Los Créditos Que Están En Absolutamente Todo El Bot Adiós`**
 ---
 
 ### **`✐ Información importante`**
@@ -22,6 +21,13 @@ Contacta Con ઈ𓅇𝐂𝐮𝐞𝐫𝐯𝐨𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐎𝐅
  <summary><b> ✐ Info Bot</b></summary>
 
 * Este proyecto **no está afiliado de ninguna manera** con `WhatsApp`, `Inc. WhatsApp` es una marca registrada de `WhatsApp LLC`, y este bot es un **desarrollo independiente** que **no tiene ninguna relación oficial con la compañía**.
+
+</details>
+
+<details>
+ <summary><b> ✐ Info Bot2</b></summary>
+
+**Buenas Soy Cuervo El Editor Y Creador De Gran Parte Del Bot Para Decir Que Si Lo Vas A Editar Dejes Tu Estrella Y Disfruta De Borrar Los Créditos Que Están En Absolutamente Todo El Bot Adiós**
 
 </details>
 
