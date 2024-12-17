@@ -1,45 +1,31 @@
-import moment from 'moment-timezone'
-import fetch from 'node-fetch'
+/* ARCHIVO EDITADO , CREADO O MEJORADO
+POR EL CUERVO 
+CUERVO-TEAM-SUPREME 
+SE DEJAN CREDITOS PERRAS ES DE CUERVO 
+USO NO PRIVADO ES PUBLICO
+PERO CUERVO SE ENCARGA 
+*/
+let handler = async(m, { conn, usedPrefix, command }) => {
 
-let handler = async (m, { conn, args }) => {
-try {
-let res = await fetch('https://api.github.com/repos/Nimodo83/Yue-Bot')
+    let textscript = `
+> ✐ *Enlaces script*
 
-if (!res.ok) throw new Error('Error al obtener datos del repositorio')
-let json = await res.json()
+> ✰ *GitHub*
+> 🜸 (https://github.com/Nimodo83/Yue-Bot)
 
-let txt = `*✐  S C R I P T  -  M A I N*\n\n`
-txt += `✰  *Nombre* : ${json.name}\n`
-txt += `✰  *Visitas* : ${json.watchers_count}\n`
-txt += `✰  *Peso* : ${(json.size / 1024).toFixed(2)} MB\n`
-txt += `✰  *Actualizado* : ${moment(json.updated_at).format('DD/MM/YY - HH:mm:ss')}\n`
-txt += `✰  *Url* : ${json.html_url}\n`
-txt += `✰  *Forks* : ${json.forks_count}\n`
-txt += `✰  *Stars* : ${json.stargazers_count}\n\n`
-txt += `🜸 *${dev}*`
+✰ *Grupo de WhatsApp*
+> 🜸 (https://chat.whatsapp.com/BKVsY0Q1X8d6DWQVx3mp2J)
 
-await conn.sendFile(m.chat, catalogo, 'yotsuba.jpg', txt, estilo, true, {
-contextInfo: {
-'forwardingScore': 200,
-'isForwarded': false,
-externalAdReply: {
-showAdAttribution: true,
-renderLargerThumbnail: false,
-title: `✐ Script ${botname}`,
-body: `🜸 ${dev}`,
-mediaType: 1,
-sourceUrl: enlace,
-thumbnailUrl: catalogo 
-}}
-}, { mentions: m.sender })
-} catch {
-await conn.reply(m.chat, '✐ *Ocurrió un error.*', m)
-await m.react(error)
-}}
+> ✰ *Canal de WhatsApp*
+> 🜸 (https://whatsapp.com/channel/0029VaMi8cn9cDDQaoeY7P3u)
+`
+//let img = ''
+conn.sendFile(m.chat, catalogo, 'catalogo.jpg', textscript, m)
+//conn.sendPayment(m.chat, '2000', 'USD', don, m.sender, m)
+}
 
 handler.help = ['script']
 handler.tags = ['main']
-handler.command = ['script', 'sc']
-handler.register = true
+handler.command = ['script', 'scripts', 'sc'] 
 
 export default handler
