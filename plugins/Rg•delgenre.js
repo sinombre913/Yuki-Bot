@@ -1,3 +1,5 @@
+// OfcKing >> https://github.com/OfcKing
+
 const handler = async (m, { conn, command, usedPrefix }) => {
 
 const user = global.db.data.users[m.sender];
