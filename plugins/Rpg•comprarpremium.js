@@ -1,3 +1,5 @@
+// OfcKing >> https://github.com/OfcKing
+
 let handler = async (m, { conn, text }) => {
   let user = global.db.data.users[m.sender];
   if (!text) return conn.reply(m.chat, '✐ Ingresa el tipo de membresía y la duración. Ejemplo: #comprarpremium 1 dia', m);
