@@ -1,13 +1,4 @@
-/* ARCHIVO EDITADO , CREADO O MEJORADO
-POR EL CUERVO 
-CUERVO-TEAM-SUPREME 
-SE DEJAN CREDITOS PERRAS ES DE CUERVO 
-USO NO PRIVADO ES PUBLICO
-PERO CUERVO SE ENCARGA 
-*/
 // Código adaptado por https://github.com/GataNina-Li
-// Código compatible con canales y comunidades de WhatsApp 
-// También encontrarás código para comandos enfocados para canales de WhatsApp
 
 import { getUrlFromDirectPath } from "@whiskeysockets/baileys"
 import _ from "lodash"
