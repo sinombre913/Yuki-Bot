@@ -1,16 +1,23 @@
+/* QUEDA PROHIBIDO EDITAR ESTOS CREDITOS
+ Powered By Cuervo-Team-Supreme 
+ya se te deja editar mucho del bot deja nuestros créditos lacra no seas puerca y respeta
+att: Cuervo-Team-Supreme
+(agrega tus creditos no borres o cambies)
+*/
+
 let cooldown = 14400000
 let handler = async (m, { conn }) => {
 
   let hasil = Math.floor(Math.random() * 8000)
   let user = global.db.data.users[m.sender]
-  if (new Date - user.lastmiming < cooldown) throw `⏳ _${mssg.mineCd}_ *${msToTime((user.lastmiming + cooldown) - new Date())}*`
+  if (new Date - user.lastmiming < cooldown) throw m.reply(`✐ _Ya has minado regresa a la mina en_ *${msToTime((user.lastmiming + cooldown) - new Date())}*`);
   user.coin += hasil
   conn.reply(m.chat, `✐ *Recompensa de la mina*
 🜸 ${moneda} : *+${hasil}*`, m)
   user.lastmiming = new Date * 1
 }
 handler.help = ['mine']
-handler.tags = ['econ']
+handler.tags = ['rpg']
 handler.command = ['minar', 'miming', 'mine'] 
 
 export default handler
