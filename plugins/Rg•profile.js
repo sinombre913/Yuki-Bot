@@ -1,3 +1,5 @@
+// OfcKing >> https://github.com/OfcKing
+
 import moment from 'moment-timezone';
 
 let handler = async (m, { conn, args }) => {
