@@ -1,5 +1,11 @@
 // OfcKing >> https://github.com/OfcKing
-
+/* ARCHIVO EDITADO , CREADO O MEJORADO
+POR EL CUERVO 
+CUERVO-TEAM-SUPREME 
+SE DEJAN CREDITOS PERRAS ES DE CUERVO 
+USO NO PRIVADO ES PUBLICO
+PERO CUERVO SE ENCARGA 
+*/
 const handler = async (m, { conn, command, usedPrefix }) => {
 
 const user = global.db.data.users[m.sender];
