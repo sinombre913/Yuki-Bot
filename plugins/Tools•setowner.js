@@ -1,3 +1,10 @@
+/* QUEDA PROHIBIDO EDITAR ESTOS CREDITOS
+ Powered By Cuervo-Team-Supreme 
+ya se te deja editar mucho del bot deja nuestros créditos lacra no seas puerca y respeta
+att: Cuervo-Team-Supreme
+(agrega tus creditos no borres o cambies)
+*/
+
 let handler = async (m, { conn, text, isRowner }) => {
     let amount = text.trim();
     if (!/^\d+$/.test(amount)) {
