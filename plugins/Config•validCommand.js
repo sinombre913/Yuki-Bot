@@ -1,10 +1,5 @@
-/* ARCHIVO EDITADO , CREADO O MEJORADO
-POR EL CUERVO 
-CUERVO-TEAM-SUPREME 
-SE DEJAN CREDITOS PERRAS ES DE CUERVO 
-USO NO PRIVADO ES PUBLICO
-PERO CUERVO SE ENCARGA 
-*/
+// @Danixljs
+
 export async function before(m) {
   if (!m.text || !global.prefix.test(m.text)) {
     return;
