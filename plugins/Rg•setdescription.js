@@ -1,3 +1,5 @@
+// OfcKing >> https://github.com/OfcKing
+
 import { createHash } from 'crypto';  
 import fetch from 'node-fetch';
 
