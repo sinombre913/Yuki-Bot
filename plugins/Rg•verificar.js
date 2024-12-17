@@ -16,9 +16,9 @@ let handler = async (m, { conn, usedPrefix, command, args }) => {
   let name2 = conn.getName(m.sender)
   let delirius = await axios.get(`https://deliriussapi-oficial.vercel.app/tools/country?text=${PhoneNumber('+' + m.sender.replace('@s.whatsapp.net', '')).getNumber('international')}`);
   let paisdata = delirius.data.result;
-  let mundo = paisdata ? `${paisdata.name} ${paisdata.emoji}` : 'Desconocido';
+  let mundo = paisdata ? `${paisdata.name} ${paisdata.emoji}` : '✐ Desconocido';
   let bio = 0, fechaBio;
-  let sinDefinir = '😿 Es privada';
+  let sinDefinir = '✐ Es privada';
   let biografia = await conn.fetchStatus(m.sender).catch(() => null);
   if (!biografia || !biografia[0] || biografia[0].status === null) {
     bio = sinDefinir;
@@ -49,7 +49,7 @@ let handler = async (m, { conn, usedPrefix, command, args }) => {
   let mini = `✐ 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗔 𝗗 𝗢\n`;
   mini += `🜸 *Nombre* » ${name}\n`;
   mini += `🜸 *Edad* » ${age} años\n\n`;
-  mini += `✐ 𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:\n`;
+  mini += `✰ 𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:\n`;
   mini += `🜸 *${moneda}* » 40\n`;
   
   await conn.sendMessage(m.chat, {
