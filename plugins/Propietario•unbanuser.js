@@ -1,3 +1,10 @@
+/* ARCHIVO EDITADO , CREADO O MEJORADO
+POR EL CUERVO 
+CUERVO-TEAM-SUPREME 
+SE DEJAN CREDITOS PERRAS ES DE CUERVO 
+USO NO PRIVADO ES PUBLICO
+PERO CUERVO SE ENCARGA 
+*/
 const handler = async (m, { conn, args, text, usedPrefix, command }) => {
     let user;
     let db = global.db.data.users;
