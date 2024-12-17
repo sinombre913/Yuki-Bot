@@ -1,5 +1,11 @@
 // OfcKing >> https://github.com/OfcKing
-
+/* ARCHIVO EDITADO , CREADO O MEJORADO
+POR EL CUERVO 
+CUERVO-TEAM-SUPREME 
+SE DEJAN CREDITOS PERRAS ES DE CUERVO 
+USO NO PRIVADO ES PUBLICO
+PERO CUERVO SE ENCARGA 
+*/
 let handler = async (m, { conn, text }) => {
   let user = global.db.data.users[m.sender];
   if (!text) return conn.reply(m.chat, '✐ Ingresa el tipo de membresía y la duración. Ejemplo: #comprarpremium 1 dia', m);
