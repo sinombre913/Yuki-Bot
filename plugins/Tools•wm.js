@@ -1,10 +1,5 @@
-/* ARCHIVO EDITADO , CREADO O MEJORADO
-POR EL CUERVO 
-CUERVO-TEAM-SUPREME 
-SE DEJAN CREDITOS PERRAS ES DE CUERVO 
-USO NO PRIVADO ES PUBLICO
-PERO CUERVO SE ENCARGA 
-*/
+// OfcKing >> https://github.com/OfcKing
+
 import { addExif } from '../lib/sticker.js';
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
