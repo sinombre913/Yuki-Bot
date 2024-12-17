@@ -1,5 +1,11 @@
 // OfcKing >> https://github.com/OfcKing
-
+/* ARCHIVO EDITADO , CREADO O MEJORADO
+POR EL CUERVO 
+CUERVO-TEAM-SUPREME 
+SE DEJAN CREDITOS PERRAS ES DE CUERVO 
+USO NO PRIVADO ES PUBLICO
+PERO CUERVO SE ENCARGA 
+*/
 import PhoneNumber from 'awesome-phonenumber';
 import axios from 'axios';
 import { createHash } from 'crypto';
