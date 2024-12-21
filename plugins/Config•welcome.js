@@ -34,44 +34,44 @@ let chat = global.db.data.chats[m.chat];
           const imagewel = await new canvafy.WelcomeLeave()
             .setAvatar(img) 
             .setBackground(`image`, `${banner}`)
-            .setTitle(`Bienvenid@ ${userName}`)
-            .setDescription(`Al Grupo\n${groupMetadata.subject}`)
+            .setTitle(`Bienvenid/a @${m.messageStubParameters[0].split`@`[0]}`)
+            .setDescription(`Al Grupo ${groupMetadata.subject}\n${participants.length} Miembros`)
             .setBorder("#000000")
             .setAvatarBorder("#F0F8FF")
             .setOverlayOpacity(0.5)
             .build();
-    let wel = `┌─★ ${botname}\n│「 𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 」\n└┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │ 𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼/𝗮\n   │ ${groupMetadata.subject}\n   └───────────────┈ ⳹`
+    let wel = `┌─★ \`${botname}\`\n│「 𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 」\n└┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │ 𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼/𝗮\n   │ ${groupMetadata.subject}\n   │ ${participants.length} *Miembros*\n   └───────────────┈ ⳹\n\n> ${global.dev}`
     await conn.sendMessage(m.chat, { image: imagewel, caption: wel }, { quoted: fkontak })
 //await conn.sendMini(m.chat, packname, dev, wel, img, img, channel, fkontak)
   }
 
-  if (chat.welcome && m.messageStubType == 28) {
+  if (chat.welcome && m.messageStubType == 32) {
           const imagebye = await new canvafy.WelcomeLeave()
             .setAvatar(img2) 
             .setBackground(`image`, `${banner}`)
             .setTitle(`Adiós ${userName}`)
-            .setDescription(`${groupMetadata.subject}`)
+            .setDescription(`${groupMetadata.subject}\n${participants.length} Miembros`)
             .setBorder("#000000")
             .setAvatarBorder("#F0F8FF")
             .setOverlayOpacity(0.5)
             .build();
-   let bye = `┌─★ ${botname}\n│「 𝗔𝗗𝗜𝗢𝗦 」\n└┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │ 𝗦𝗲 𝗳𝘂𝗲\n   │ 𝗡𝘂𝗻𝗰𝗮 𝘁𝗲 𝗾𝘂𝗶𝘀𝗶𝗺𝗼𝘀 𝗮𝗾𝘂𝗶\n   └───────────────┈ ⳹`
+   let bye = `┌─★ \`${botname}\`\n│「 𝗔𝗗𝗜𝗢𝗦 」\n└┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │ 𝗦𝗲 𝗳𝘂𝗲\n   │ 𝗡𝘂𝗻𝗰𝗮 𝘁𝗲 𝗾𝘂𝗶𝘀𝗶𝗺𝗼𝘀 𝗮𝗾𝘂𝗶\n   │ ${participants.length} *Miembros*\n   └───────────────┈ ⳹\n\n> ${global.dev}`
    await conn.sendMessage(m.chat, { image: imagebye, caption: bye }, { quoted: fkontak })
 //await conn.sendMini(m.chat, packname, dev, bye, img2, img2, channel, fkontak)
   }
 
-  if (chat.welcome && m.messageStubType == 32) {
+  if (chat.welcome && m.messageStubType == 28) {
           const imagekick = await new canvafy.WelcomeLeave()
             .setAvatar(img2) 
             .setBackground(`image`, `${banner}`)
-            .setTitle(`Fuera Put@ ${userName}`)
-            .setDescription(`${groupMetadata.subject}`)
+            .setTitle(`Fuera Put@ @${m.messageStubParameters[0].split`@`[0]}`)
+            .setDescription(`${groupMetadata.subject}\n${participants.length} Miembros`)
             .setBorder("#000000")
             .setAvatarBorder("#F0F8FF")
             .setOverlayOpacity(0.5)
             .build();
-    let kick = `┌─★ ${botname}\n│「 𝗔𝗗𝗜𝗢𝗦 」\n└┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │ 𝗦𝗲 𝗳𝘂𝗲\n   │ 𝗡𝘂𝗻𝗰𝗮 𝘁𝗲 𝗾𝘂𝗶𝘀𝗶𝗺𝗼𝘀 𝗮𝗾𝘂𝗶\n   └───────────────┈ ⳹`
-    await conn.sendMessage(m.chat, { image: imagekick, caption: kick }, { quoted: fkontak })
+    let kick = `┌─★ \`${botname}\`\n│「 𝗔𝗗𝗜𝗢𝗦 」\n└┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │ 𝗦𝗲 𝗳𝘂𝗲\n   │ 𝗡𝘂𝗻𝗰𝗮 𝘁𝗲 𝗾𝘂𝗶𝘀𝗶𝗺𝗼𝘀 𝗮𝗾𝘂𝗶\n   │ ${participants.length} *Miembros*\n   └───────────────┈ ⳹\n\n> ${global.dev}`
+    await conn.sendMessage(m.chat, { image: imagekick, caption: kick }, { quoted: estilo })
 //await conn.sendMini(m.chat, packname, dev, kick, img2, img2, channel, fkontak)
 }}
 
