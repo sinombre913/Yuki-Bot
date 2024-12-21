@@ -36,7 +36,7 @@ let handler = async (message, { conn }) => {
   if (!message.command) return;
 
   if (!verificarBot()) {
-    await conn.sendMessage(message.chat, '✧ Error al verificar el bot.', message);
+    await conn.sendMessage(m.chat, '✧ Error al verificar el bot.', m);
     return;
   }
 
@@ -56,12 +56,12 @@ let handler = async (message, { conn }) => {
     let remainingTime = cooldownTime - (currentTime - lastUsedTime);
     let minutes = Math.floor(remainingTime / 60000);
     let seconds = Math.floor((remainingTime % 60000) / 1000);
-    await conn.reply(message.chat, `✧ Debes esperar ${minutes} minutos ${seconds} segundos para usar el comando nuevamente.`, message);
+    await conn.reply(m.chat, `✧ Debes esperar ${minutes} minutos ${seconds} segundos para usar el comando nuevamente.`, m);
     return;
   }
 
   if (!character) {
-    await conn.sendMessage(message.chat, '✧ El personaje no está disponible por el momento.', message);
+    await conn.sendMessage(m.chat, '✧ El personaje no está disponible por el momento.', m);
     return;
   }
 
@@ -69,7 +69,7 @@ let handler = async (message, { conn }) => {
   let isOwner = characterOwner && characterOwner.name === senderId;
 
   if (isOwner) {
-    await conn.sendMessage(message.chat, `✧ Ya tienes el personaje ${character.name}!`, message);
+    await conn.sendMessage(m.chat, `✧ Ya tienes el personaje ${character.name}!`, m);
     return;
   }
 
@@ -86,9 +86,9 @@ let handler = async (message, { conn }) => {
   data.personajesReservados = data.personajesReservados.filter(char => char.id !== matchId);
   guardarDatos(data);
 
-  await conn.sendMessage(message.chat, `✧ *${character.name}* ha sido reclamado por @${senderId}!`, message);
+  await conn.sendMessage(m.chat, `✧ *${character.name}* ha sido reclamado por @${senderId}!`, m);
 
-  cooldowns[senderId] = currentTime;
+  let cooldowns[senderId] = currentTime;
 };
 
 handler.command = ['c'];
