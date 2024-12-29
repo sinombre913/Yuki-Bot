@@ -15,8 +15,7 @@ import canvafy from 'canvafy';
 
 export async function before(m, {conn, participants, groupMetadata}) {
   if (!m.messageStubType || !m.isGroup) return !0;
-   // let pp = await conn.profilePictureUrl(m.messageStubParameters[0], 'image').catch(_ => welcome)
-  //  let pp2 = await conn.profilePictureUrl(m.messageStubParameters[0], 'image').catch(_ => adios)
+  let ppgroup = await conn.profilePictureUrl(m.chat, 'image').catch((_) => null) || `${global.catalogo}`;
   let img = await (await fetch(`${catalogo}`)).buffer()
   let img2 = await (await fetch(`${catalogo}`)).buffer()
 
@@ -35,29 +34,51 @@ let chat = global.db.data.chats[m.chat];
             .setAvatar(img) 
             .setBackground(`image`, `${banner}`)
             .setTitle(`Bienvenid/a @${m.messageStubParameters[0].split`@`[0]}`)
-            .setDescription(`Al Grupo ${groupMetadata.subject}\n${participants.length} Miembros`)
+            .setDescription(`Al Grupo ${groupMetadata.subject}`)
             .setBorder("#000000")
             .setAvatarBorder("#F0F8FF")
             .setOverlayOpacity(0.5)
             .build();
     let wel = `┌─★ \`${botname}\`\n│「 𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 」\n└┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │ 𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼/𝗮\n   │ ${groupMetadata.subject}\n   │ ${participants.length} *Miembros*\n   └───────────────┈ ⳹\n\n> ${global.dev}`
-    await conn.sendMessage(m.chat, { image: imagewel, caption: wel }, { quoted: fkontak })
-//await conn.sendMini(m.chat, packname, dev, wel, img, img, channel, fkontak)
+    await conn.sendMessage(m.chat, { image: { imagewel }, caption: wel,
+contextInfo: {
+mentionedJid: conn.parseMention(wel),
+isForwarded: true,
+forwardingScore: 999,
+externalAdReply: {
+title: `${global.dev} • ${groupMetadata.subject}`,
+body: textbot,
+thumbnailUrl: catalogo,
+sourceUrl: enlace,
+mediaType: 1,
+renderLargerThumbnail: true
+}}}, { quoted: m })
   }
 
   if (chat.welcome && m.messageStubType == 32) {
           const imagebye = await new canvafy.WelcomeLeave()
             .setAvatar(img2) 
             .setBackground(`image`, `${banner}`)
-            .setTitle(`Adiós ${userName}`)
-            .setDescription(`${groupMetadata.subject}\n${participants.length} Miembros`)
+            .setTitle(`Adiós @${m.messageStubParameters[0].split`@`[0]} `)
+            .setDescription(`${groupMetadata.subject}`)
             .setBorder("#000000")
             .setAvatarBorder("#F0F8FF")
             .setOverlayOpacity(0.5)
             .build();
    let bye = `┌─★ \`${botname}\`\n│「 𝗔𝗗𝗜𝗢𝗦 」\n└┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │ 𝗦𝗲 𝗳𝘂𝗲\n   │ 𝗡𝘂𝗻𝗰𝗮 𝘁𝗲 𝗾𝘂𝗶𝘀𝗶𝗺𝗼𝘀 𝗮𝗾𝘂𝗶\n   │ ${participants.length} *Miembros*\n   └───────────────┈ ⳹\n\n> ${global.dev}`
-   await conn.sendMessage(m.chat, { image: imagebye, caption: bye }, { quoted: fkontak })
-//await conn.sendMini(m.chat, packname, dev, bye, img2, img2, channel, fkontak)
+   await conn.sendMessage(m.chat, { image: { imagebye }, caption: bye,
+contextInfo: {
+mentionedJid: conn.parseMention(bye),
+isForwarded: true,
+forwardingScore: 999,
+externalAdReply: {
+title: `${global.dev} • ${groupMetadata.subject}`,
+body: textbot,
+thumbnailUrl: catalogo,
+sourceUrl: enlace,
+mediaType: 1,
+renderLargerThumbnail: true
+}}}, { quoted: m })
   }
 
   if (chat.welcome && m.messageStubType == 28) {
@@ -65,14 +86,25 @@ let chat = global.db.data.chats[m.chat];
             .setAvatar(img2) 
             .setBackground(`image`, `${banner}`)
             .setTitle(`Fuera Put@ @${m.messageStubParameters[0].split`@`[0]}`)
-            .setDescription(`${groupMetadata.subject}\n${participants.length} Miembros`)
+            .setDescription(`${groupMetadata.subject}`)
             .setBorder("#000000")
             .setAvatarBorder("#F0F8FF")
             .setOverlayOpacity(0.5)
             .build();
     let kick = `┌─★ \`${botname}\`\n│「 𝗔𝗗𝗜𝗢𝗦 」\n└┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │ 𝗦𝗲 𝗳𝘂𝗲\n   │ 𝗡𝘂𝗻𝗰𝗮 𝘁𝗲 𝗾𝘂𝗶𝘀𝗶𝗺𝗼𝘀 𝗮𝗾𝘂𝗶\n   │ ${participants.length} *Miembros*\n   └───────────────┈ ⳹\n\n> ${global.dev}`
-    await conn.sendMessage(m.chat, { image: imagekick, caption: kick }, { quoted: estilo })
-//await conn.sendMini(m.chat, packname, dev, kick, img2, img2, channel, fkontak)
+    await conn.sendMessage(m.chat, { image: { imagekick }, caption: kick,
+contextInfo: {
+mentionedJid: conn.parseMention(kick),
+isForwarded: true,
+forwardingScore: 999,
+externalAdReply: {
+title: `${global.dev} • ${groupMetadata.subject}`,
+body: textbot,
+thumbnailUrl: catalogo,
+sourceUrl: enlace,
+mediaType: 1,
+renderLargerThumbnail: true
+}}}, { quoted: m })
 }}
 
 /*import { WAMessageStubType } from '@whiskeysockets/baileys';
