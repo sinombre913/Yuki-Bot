@@ -52,7 +52,7 @@ cooldowns[m.sender] = Date.now()
 // Configuración del comando
 handler.help = ['rw', 'rollwaifu'];
 handler.tags = ['anime'];
-handler.command = /^(rw|rollwaifu)$/i; // Comandos "rw" y "rollwaifu"
+handler.command = ['rw', 'rollwaifu']; // Comandos "rw" y "rollwaifu"
 
 export default handler;
 
