@@ -79,6 +79,6 @@ let handler = async (m, { conn }) => {
 // Configuración del comando
 handler.help = ['claim'];
 handler.tags = ['anime'];
-handler.command = /^(claim|c|reclamar)$/i; // Comandos "claim", "c" y "reclamar"
+handler.command = ['claim', 'c', 'reclamar']; // Comandos "claim", "c" y "reclamar"
 
 export default handler;
