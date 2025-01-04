@@ -46,6 +46,6 @@ let handler = async (m, { conn }) => {
 // Configuración del comando
 handler.help = ['harem'];
 handler.tags = ['anime'];
-handler.command = /^(harem)$/i; // Comando "harem"
+handler.command = ['harem']; // Comando "harem"
 
 export default handler;
