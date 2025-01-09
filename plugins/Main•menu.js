@@ -19,449 +19,487 @@ let MenuText = `╭┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄�
 𝄄 ᴀǫᴜɪ ᴛɪᴇɴᴇs ʟᴀ ʟɪsᴛᴀ ᴅᴇ ᴄᴏᴍᴀɴᴅᴏs
 ╰┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙•●᪱•ٜ┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙͙͙͙┉ٜ͙͙͙͙͙͙┅ٜ͙͙͙͙͙━͙͙͙͙╾‌ࣩ┉꙰╮
 ╭─‌┈‌ׅ┉‌ׁ‌┈┉ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ─‌╯
-𝄄 *Cliente* » @${userId.split('@')[0]}
-𝄄 *Banco* » ${banco}
-𝄄 *${moneda}* » ${coins}
-𝄄 *Género* » ${genero}
-𝄄 *Pareja* » ${pareja}
-𝄄 *Estado* » ${estatus}
+│╭╴╴╴╴╴╴
+││ *Cliente* » @${userId.split('@')[0]}
+││ *Banco* » ${banco}
+││ *${moneda}* » ${coins}
+││ *Género* » ${genero}
+││ *Pareja* » ${pareja}
+││ *Estado* » ${estatus}
+│╰╴╴╴╴╴╴
 ╰┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙•●᪱•ٜ┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙͙͙͙┉ٜ͙͙͙͙͙͙┅ٜ͙͙͙͙͙━͙͙͙͙╾‌ࣩ┉꙰╮
 ╭─‌┈‌ׅ┉‌ׁ‌┈┉ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ─‌╯
 𝄄 ✧ → ᴘᴀʀᴀ ᴄʀᴇᴀʀ ᴜɴ sᴜʙ-ʙᴏᴛ ᴄᴏɴ ᴛᴜ ɴᴜᴍᴇʀᴏ ᴜᴛɪʟɪᴢᴀ *!serbot* o *!serbot code*
 𝄄
 ╰┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙•●᪱•ٜ┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙͙͙͙┉ٜ͙͙͙͙͙͙┅ٜ͙͙͙͙͙━͙͙͙͙╾‌ࣩ┉꙰╮
 ╭─‌┈‌ׅ┉‌ׁ‌┈┉ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ─‌╯
-𝄄 ✧ *Menú de Comandos* ✧
-𝄄 » De ${botname}
+│╭╴╴╴╴╴╴
+││ ✧ *Menú de Comandos* ✧
+││ » De ${botname}
+│╰╴╴╴╴╴╴
 ╰┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙•●᪱•ٜ┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙͙͙͙┉ٜ͙͙͙͙͙͙┅ٜ͙͙͙͙͙━͙͙͙͙╾‌ࣩ┉꙰╮
 ╭─‌┈‌ׅ┉‌ׁ‌┈┉ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ─‌╯
-𝄄 \`『 Info Sockets 』\`
-𝄄
-𝄄 ✐ *!token • !gettoken*
-𝄄 ➣ Obtén el token del socket.
-𝄄
-𝄄 ✐ *!socket • !bots*
-𝄄 ➣ Ver todos los sockets activos.
-𝄄
-𝄄 ✐ *!serbot • !serbot code • !serbot --code*
-𝄄 ➣ Convierte en un socket.
-𝄄
+│╭╴╴╴╴╴╴
+││ \`『 Info Sockets 』\`
+│╞═════𖠁☄︎𖠁═════
+││
+││ ✐ *!token • !gettoken*
+││ ➣ Obtén el token del socket.
+││
+││ ✐ *!socket • !bots*
+││ ➣ Ver todos los sockets activos.
+││
+││ ✐ *!serbot • !serbot code • !serbot --code*
+││ ➣ Convierte en un socket.
+││
+│╰╴╴╴╴╴╴
 ╰┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙•●᪱•ٜ┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙͙͙͙┉ٜ͙͙͙͙͙͙┅ٜ͙͙͙͙͙━͙͙͙͙╾‌ࣩ┉꙰╮
 ╭─‌┈‌ׅ┉‌ׁ‌┈┉ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ─‌╯
-𝄄 \`『 Info User 』\`
-𝄄
-𝄄 ✐ *!reg • !verificar • !register*
-𝄄 ➣ Registra tu nombre y edad en ${botname}.
-
-𝄄 ✐ *!unreg*
-𝄄 ➣ Elimina tu registro de ${botname}.
-𝄄
-𝄄 ✐ *!setgenre • !setgenero*
-𝄄 ➣ Establece tu género en el perfil de ${botname}.
-𝄄
-𝄄 ✐ *!delgenre • !delgenero*
-𝄄 ➣ Elimina tu género del perfil de ${botname}.
-𝄄
-𝄄 ✐ *!setbirth • !setnacimiento*
-𝄄 ➣ Establece tu fecha de nacimiento en el perfil de ${botname}.
-𝄄
-𝄄 ✐ *!delbirth • !delnacimiento*
-𝄄 ➣ Elimina tu fecha de nacimiento del perfil de  ${botname}.
-𝄄
-𝄄 ✐ *!setdescription • !setdesc*
-𝄄 ➣ Establece una descripción en tu perfil de ${botname}.
-𝄄
-𝄄 ✐ *!deldescription • !deldesc*
-𝄄 ➣ Elimina la descripción de tu perfil de ${botname}.
-𝄄
+│╭╴╴╴╴╴╴
+││ \`『 Info User 』\`
+│╞═════𖠁☄︎𖠁═════
+││
+││ ✐ *!reg • !verificar • !register*
+││ ➣ Registra tu nombre y edad en ${botname}.
+││
+││ ✐ *!unreg*
+││ ➣ Elimina tu registro de ${botname}.
+││
+││ ✐ *!setgenre • !setgenero*
+││ ➣ Establece tu género en el perfil de ${botname}.
+││
+││ ✐ *!delgenre • !delgenero*
+││ ➣ Elimina tu género del perfil de ${botname}.
+││
+││ ✐ *!setbirth • !setnacimiento*
+││ ➣ Establece tu fecha de nacimiento en el perfil de ${botname}.
+││
+││ ✐ *!delbirth • !delnacimiento*
+││ ➣ Elimina tu fecha de nacimiento del perfil de  ${botname}.
+││
+││ ✐ *!setdescription • !setdesc*
+││ ➣ Establece una descripción en tu perfil de ${botname}.
+││
+││ ✐ *!deldescription • !deldesc*
+││ ➣ Elimina la descripción de tu perfil de ${botname}.
+││
+│╰╴╴╴╴╴╴
 ╰┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙•●᪱•ٜ┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙͙͙͙┉ٜ͙͙͙͙͙͙┅ٜ͙͙͙͙͙━͙͙͙͙╾‌ࣩ┉꙰╮
 ╭─‌┈‌ׅ┉‌ׁ‌┈┉ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ─‌╯
-𝄄 \`『 Info Creador 』\`
-𝄄
-𝄄 ✐ *!setname*
-𝄄 ➣ Cambia el name de ${botname}.
-𝄄
-𝄄 ✐ *!setmoneda*
-𝄄 ➣ Cambia la moneda de ${botname}.
-𝄄
-𝄄 ✐ *!setenlace*
-𝄄 ➣ Cambia el enlace de ${botname}.
-𝄄
-𝄄 ✐ *!setbanner*
-𝄄 ➣ Cambia la imagen del menú de ${botname}.
-𝄄
-𝄄 ✐ *!setcreador*
-𝄄 ➣ Cambia el owner de ${botname}.
-𝄄
-𝄄 ✐ *!addowner* [mension / etiquetar]
-𝄄 ➣ Agrega un numero como owner.
-𝄄
-𝄄 ✐ *!delowner* [mension / etiquetar]
-𝄄 ➣ Elimina un numero como owner.
-
-𝄄 ✐ *!bcgc*
-𝄄 ➣ El bot enviara la notificación que el dueño escribió.
-𝄄
-𝄄 ✐ *!banuser* [mension / etiquetar]
-𝄄 ➣ El bot ya no responde a los mensajes del usuario mencionando.
-𝄄
-𝄄 ✐ *!unbanuser* [mension / etiquetar]
-𝄄 ➣ El bot responde a los mensajes del usuario mencionando.
-𝄄
-𝄄 ✐ *!leave • !salir*
-𝄄 ➣ El bot sale del grupo.
-𝄄
-𝄄 ✐ *!enviarmsg • !enviarmsgcanal*
-𝄄 ➣ El bot envia mensaje a un canal de WhatsApp.
-𝄄
-𝄄 ✐ *!resetuser • !borrardatos* [mension / etiquetar]
-𝄄 ➣ Reestablese los datos del usuario mencionando.
-𝄄
-𝄄 ✐ *!creargc • !newgc*
-𝄄 ➣ El bot crea un grupo.
-𝄄
-𝄄 ✐ *!setcatalogo*
-𝄄 ➣ Cambia la imagen del catalogo.
-𝄄
-𝄄 ✐ *!settexto*
-𝄄 ➣ Cambia el texto del bot.
-𝄄
-𝄄 ✐ *!setdev*
-𝄄 ➣ cambia el dev del bot.
-𝄄
+│╭╴╴╴╴╴╴
+││ \`『 Info Creador 』\`
+│╞═════𖠁☄︎𖠁═════
+││
+││ ✐ *!setname*
+││ ➣ Cambia el name de ${botname}.
+││
+││ ✐ *!setmoneda*
+││ ➣ Cambia la moneda de ${botname}.
+││
+││ ✐ *!setenlace*
+││ ➣ Cambia el enlace de ${botname}.
+││
+││ ✐ *!setbanner*
+││ ➣ Cambia la imagen del menú de ${botname}.
+││
+││ ✐ *!setcreador*
+││ ➣ Cambia el owner de ${botname}.
+││
+││ ✐ *!addowner* [mension / etiquetar]
+││ ➣ Agrega un numero como owner.
+││
+││ ✐ *!delowner* [mension / etiquetar]
+││ ➣ Elimina un numero como owner.
+││
+││ ✐ *!bcgc*
+││ ➣ El bot enviara la notificación que el dueño escribió.
+││
+││ ✐ *!banuser* [mension / etiquetar]
+││ ➣ El bot ya no responde a los mensajes del usuario mencionando.
+││
+││ ✐ *!unbanuser* [mension / etiquetar]
+││ ➣ El bot responde a los mensajes del usuario mencionando.
+││
+││ ✐ *!leave • !salir*
+││ ➣ El bot sale del grupo.
+││
+││ ✐ *!enviarmsg • !enviarmsgcanal*
+││ ➣ El bot envia mensaje a un canal de WhatsApp.
+││
+││ ✐ *!resetuser • !borrardatos* [mension / etiquetar]
+││ ➣ Reestablese los datos del usuario mencionando.
+││
+││ ✐ *!creargc • !newgc*
+││ ➣ El bot crea un grupo.
+││
+││ ✐ *!setcatalogo*
+││ ➣ Cambia la imagen del catalogo.
+││
+││ ✐ *!settexto*
+││ ➣ Cambia el texto del bot.
+││
+││ ✐ *!setdev*
+││ ➣ cambia el dev del bot.
+││
+│╰╴╴╴╴╴╴
 ╰┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙•●᪱•ٜ┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙͙͙͙┉ٜ͙͙͙͙͙͙┅ٜ͙͙͙͙͙━͙͙͙͙╾‌ࣩ┉꙰╮
 ╭─‌┈‌ׅ┉‌ׁ‌┈┉ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ─‌╯
-𝄄 \`『 Descarga & Conversión 』\`
-𝄄
-𝄄 ✐ *!tourl*
-𝄄 ➣ Convierte imagen en url https:qu.ax.
-
-𝄄 ✐ *!toibb*
-𝄄 ➣ Convierte imagen en url https:ibb.co.
-𝄄
-𝄄 ✐ *!tocat*
-𝄄 ➣ Convierte imagen en url en https:catbox.moe.
-𝄄
-𝄄 ✐ *!tiktok • !tt*
-𝄄 ➣ Descarga videos de TikTok.
-𝄄
-𝄄 ✐ *!pinterest*
-𝄄 ➣ Busca y descarga imágenes de Pinterest.
-𝄄
-𝄄 ✐ *!play • !play2*
-𝄄 ➣ Descarga música/video de YouTube.
-𝄄
-𝄄 ✐ *!fb • !facebook*
-𝄄 ➣ Descarga videos de Facebook.
-𝄄
-𝄄 ✐ *!ig • !instagram*
-𝄄 ➣ Descarga contenido de Instagram.
-𝄄
-𝄄 ✐ *!imagen*
-𝄄 ➣ Busca y descarga imágenes desde Internet.
-𝄄
-𝄄 ✐ *!s • !sticker*
-𝄄 ➣ Realiza un sticker.
-𝄄
-𝄄 ✐ *!wm*
-𝄄 ➣ Cambiar el nombre del sticker.
-𝄄
+│╭╴╴╴╴╴╴
+││ \`『 Descarga & Conversión 』\`
+│╞═════𖠁☄︎𖠁═════
+││
+││ ✐ *!tourl*
+││ ➣ Convierte imagen en url https:qu.ax.
+││
+││ ✐ *!toibb*
+││ ➣ Convierte imagen en url https:ibb.co.
+││
+││ ✐ *!tocat*
+││ ➣ Convierte imagen en url en https:catbox.moe.
+││
+││ ✐ *!tiktok • !tt*
+││ ➣ Descarga videos de TikTok.
+││
+││ ✐ *!pinterest*
+││ ➣ Busca y descarga imágenes de Pinterest.
+││
+││ ✐ *!play • !play2*
+││ ➣ Descarga música/video de YouTube.
+││
+││ ✐ *!fb • !facebook*
+││ ➣ Descarga videos de Facebook.
+││
+││ ✐ *!ig • !instagram*
+││ ➣ Descarga contenido de Instagram.
+││
+││ ✐ *!imagen*
+││ ➣ Busca y descarga imágenes desde Internet.
+││
+││ ✐ *!s • !sticker*
+││ ➣ Realiza un sticker.
+││
+││ ✐ *!wm*
+││ ➣ Cambiar el nombre del sticker.
+││
+│╰╴╴╴╴╴╴
 ╰┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙•●᪱•ٜ┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙͙͙͙┉ٜ͙͙͙͙͙͙┅ٜ͙͙͙͙͙━͙͙͙͙╾‌ࣩ┉꙰╮
 ╭─‌┈‌ׅ┉‌ׁ‌┈┉ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ─‌╯
-𝄄 \`『 Info Ai 』\`
-𝄄
-𝄄 ✐ *!ia • @chatgpt*
-𝄄 ➣ Habla con la V1 de ${botname}.
-𝄄
-𝄄 ✐ *!openai*
-𝄄 ➣ Habla con la V2 de ${botname}.
-𝄄
-𝄄 ✐ *!gemini*
-𝄄 ➣ Habla con gemini.
-𝄄
+│╭╴╴╴╴╴╴
+││ \`『 Info Ai 』\`
+│╞═════𖠁☄︎𖠁═════
+││
+││ ✐ *!ia • @chatgpt*
+││ ➣ Habla con la V1 de ${botname}.
+││
+││ ✐ *!openai*
+││ ➣ Habla con la V2 de ${botname}.
+││
+││ ✐ *!gemini*
+││ ➣ Habla con gemini.
+││
+│╰╴╴╴╴╴╴
 ╰┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙•●᪱•ٜ┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙͙͙͙┉ٜ͙͙͙͙͙͙┅ٜ͙͙͙͙͙━͙͙͙͙╾‌ࣩ┉꙰╮
 ╭─‌┈‌ׅ┉‌ׁ‌┈┉ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ─‌╯
-𝄄 \`『 Buscadores 』\`
-𝄄
-𝄄 ✐ *!mercadolibre*
-𝄄 ➣ Busca artículos en mercado libre.
-𝄄
-𝄄 ✐ *!githubsearch*
-𝄄 ➣ Busca repositorios en github.
-𝄄
-𝄄 ✐ *!yts • !ytsearch*
-𝄄 ➣ Busca contenido en YouTube.
-𝄄
-𝄄 ✐ *!tiktoksearch • !tiktoks*
-𝄄 ➣ Busca contenido en tiktok.
-𝄄
+│╭╴╴╴╴╴╴
+││ \`『 Buscadores 』\`
+│╞═════𖠁☄︎𖠁═════
+││
+││ ✐ *!mercadolibre*
+││ ➣ Busca artículos en mercado libre.
+││
+││ ✐ *!githubsearch*
+││ ➣ Busca repositorios en github.
+││
+││ ✐ *!yts • !ytsearch*
+││ ➣ Busca contenido en YouTube.
+││
+││ ✐ *!tiktoksearch • !tiktoks*
+││ ➣ Busca contenido en tiktok.
+││
+│╰╴╴╴╴╴╴
 ╰┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙•●᪱•ٜ┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙͙͙͙┉ٜ͙͙͙͙͙͙┅ٜ͙͙͙͙͙━͙͙͙͙╾‌ࣩ┉꙰╮
 ╭─‌┈‌ׅ┉‌ׁ‌┈┉ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ─‌╯
-𝄄 \`『 Info Nsfw & +18 』\`
-𝄄
-𝄄 ✐ *!pack*
-𝄄 ➣ Una imagen random de mujer.
-𝄄
-𝄄 ✐ *!pack2*
-𝄄 ➣ Una imagen random de unos pechos de mujer.
-𝄄
-𝄄 ✐ *!pack3*
-𝄄 ➣ Imagen random de un hombre.
-𝄄
-𝄄 ✐ *!rule34*
-𝄄 ➣ contenido de rule34.
-𝄄
-𝄄 ✐ *!xnxxsearch*
-𝄄 ➣ Busca contenido de xnxx.
-𝄄
-𝄄 ✐ *!videoxxxlesbi • !videolesbixxx*
-𝄄 ➣ Video random de mujeres.
-𝄄
-𝄄 ✐ *!videoxxx*
-𝄄 ➣ video random de porno.
-𝄄
-𝄄 ✐ *!xnxxdl*
-𝄄 ➣ Descarga contenido de xnxx.
-𝄄
-𝄄 ✐ *!xvideosdl*
-𝄄 ➣ Descarga contenido de xvideos.
-𝄄
+│╭╴╴╴╴╴╴
+││ \`『 Info Nsfw & +18 』\`
+│╞═════𖠁☄︎𖠁═════
+││
+││ ✐ *!pack*
+││ ➣ Una imagen random de mujer.
+││
+││ ✐ *!pack2*
+││ ➣ Una imagen random de unos pechos de mujer.
+││
+││ ✐ *!pack3*
+││ ➣ Imagen random de un hombre.
+││
+││ ✐ *!rule34*
+││ ➣ contenido de rule34.
+││
+││ ✐ *!xnxxsearch*
+││ ➣ Busca contenido de xnxx.
+││
+││ ✐ *!videoxxxlesbi • !videolesbixxx*
+││ ➣ Video random de mujeres.
+││
+││ ✐ *!videoxxx*
+││ ➣ video random de porno.
+││
+││ ✐ *!xnxxdl*
+││ ➣ Descarga contenido de xnxx.
+││
+││ ✐ *!xvideosdl*
+││ ➣ Descarga contenido de xvideos.
+││
+│╰╴╴╴╴╴╴
 ╰┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙•●᪱•ٜ┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙͙͙͙┉ٜ͙͙͙͙͙͙┅ٜ͙͙͙͙͙━͙͙͙͙╾‌ࣩ┉꙰╮
 ╭─‌┈‌ׅ┉‌ׁ‌┈┉ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ─‌╯
-𝄄 \`『 Rpg & Gacha 』\`
-𝄄
-𝄄 ✐ *!marry* [mension / etiquetar]
-𝄄 ➣ Propón matrimonio a otro usuario.
-𝄄
-𝄄 ✐ *!divorce*
-𝄄 ➣ divorcio con el usuario 
-𝄄
-𝄄 ✐ *!profile* [mension / etiquetar]
-𝄄 ➣ Muestra tu perfil de usuario o la de un usuario mencionando.
-𝄄
-𝄄 ✐ *!comprarpremium*
-𝄄 ➣ Usar el bot sin limíte
-𝄄
-𝄄 ✐ *!daily*
-𝄄 ➣ Pide recompensa diaria.
-𝄄
-𝄄 ✐ *!w*
-𝄄 ➣ Trabaja y obtén ${moneda}.
-𝄄
-𝄄 ✐ *!slut*
-𝄄 ➣ Protituirse y obtener ${moneda}.
-𝄄
-𝄄 ✐ *!crime*
-𝄄 ➣ Roba y obtén ${moneda}.
-𝄄
-𝄄 ✐ *!cf*
-𝄄 ➣ Apuesta y obtén ${moneda}.
-𝄄
-𝄄 ✐ *!rt*
-𝄄 ➣ black Jack (ruleta) y obtén ${moneda}.
-𝄄
-𝄄 ✐ *!rob* [mension / etiquetar]
-𝄄 ➣ Roba ${moneda} al usuario mencionando.
-𝄄
-𝄄 ✐ *!bank • !banco* [mension / etiquetar]
-𝄄 ➣ Revisa tu cuenta del banco o la de un usuario mencionando.
-𝄄
-𝄄 ✐ *!cartera • !wallet* [mension / etiquetar]
-𝄄 ➣ Revisa tu cartera o la de un usuario mencionando.
-𝄄
-𝄄 ✐ *!retirar • !wd* [cantidad(un número) / all]
-𝄄 ➣ Retira tus ${moneda} del banco.
-𝄄
-𝄄 ✐ *!dep • !aguardar* [cantidad(un número) / all]
-𝄄 ➣ Guarda tus ${moneda} en el banco.
-𝄄
-𝄄 ✐ *!mine • !minar*
-𝄄 ➣ Menete a minar y obten ${moneda}.
-𝄄
-𝄄 ✐ *!afk*
-𝄄 ➣ Si te mencionan el bot dara un breve mensaje.
-𝄄
-𝄄 ✐ *!rw*
-𝄄 ➣ Para reclamar un personaje.
-
-𝄄 ✐ *!c*
-𝄄 ➣ Reclama el personaje.
-𝄄
-𝄄 ✐ *!harem • !ob*
-𝄄 ➣ Rebisa tus personajes obtenidos.
-𝄄
-𝄄 ✐ *!toprw*
-𝄄 ➣ Los usuarios con mejores personajes.
-
-𝄄 ✐ *!delchar*
-𝄄 ➣ Elimina un personaje de tus personajes obtenidos.
-𝄄
-𝄄 ✐ *!character*
-𝄄 ➣ Ve un personaje que tengas.
-𝄄
+│╭╴╴╴╴╴╴
+││ \`『 Rpg & Gacha 』\`
+│╞═════𖠁☄︎𖠁═════
+││
+││ ✐ *!marry* [mension / etiquetar]
+││ ➣ Propón matrimonio a otro usuario.
+││
+││ ✐ *!divorce*
+││ ➣ divorcio con el usuario 
+││
+││ ✐ *!profile* [mension / etiquetar]
+││ ➣ Muestra tu perfil de usuario o la de un usuario mencionando.
+││
+││ ✐ *!comprarpremium*
+││ ➣ Usar el bot sin limíte
+││
+││ ✐ *!daily*
+││ ➣ Pide recompensa diaria.
+││
+││ ✐ *!w*
+││ ➣ Trabaja y obtén ${moneda}.
+││
+││ ✐ *!slut*
+││ ➣ Protituirse y obtener ${moneda}.
+││
+││ ✐ *!crime*
+││ ➣ Roba y obtén ${moneda}.
+││
+││ ✐ *!cf*
+││ ➣ Apuesta y obtén ${moneda}.
+││
+││ ✐ *!rt*
+││ ➣ black Jack (ruleta) y obtén ${moneda}.
+││
+││ ✐ *!rob* [mension / etiquetar]
+││ ➣ Roba ${moneda} al usuario mencionando.
+││
+││ ✐ *!bank • !banco* [mension / etiquetar]
+││ ➣ Revisa tu cuenta del banco o la de un usuario mencionando.
+││
+││ ✐ *!cartera • !wallet* [mension / etiquetar]
+││ ➣ Revisa tu cartera o la de un usuario mencionando.
+││
+││ ✐ *!retirar • !wd* [cantidad(un número) / all]
+││ ➣ Retira tus ${moneda} del banco.
+││
+││ ✐ *!dep • !aguardar* [cantidad(un número) / all]
+││ ➣ Guarda tus ${moneda} en el banco.
+││
+││ ✐ *!mine • !minar*
+││ ➣ Menete a minar y obten ${moneda}.
+││
+││ ✐ *!afk*
+││ ➣ Si te mencionan el bot dara un breve mensaje.
+││
+││ ✐ *!rw*
+││ ➣ Para reclamar un personaje.
+││
+││ ✐ *!c*
+││ ➣ Reclama el personaje.
+││
+││ ✐ *!harem • !ob*
+││ ➣ Rebisa tus personajes obtenidos.
+││
+│╰╴╴╴╴╴╴
 ╰┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙•●᪱•ٜ┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙͙͙͙┉ٜ͙͙͙͙͙͙┅ٜ͙͙͙͙͙━͙͙͙͙╾‌ࣩ┉꙰╮
 ╭─‌┈‌ׅ┉‌ׁ‌┈┉ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ─‌╯
-𝄄 \`『 Info Grupos 』\`
-𝄄
-𝄄 ✐ *!link*
-𝄄 ➣ El bot envia el link del grupo.
-𝄄
-𝄄 ✐ *!mute* [mension / etiquetar]
-𝄄 ➣ El bot elimina los mensajes del usuario.
-𝄄
-𝄄 ✐ *!unmute* [mension / etiquetar]
-𝄄 ➣ El bot deja de eliminar los mensajes del usuario.
-𝄄
-𝄄 ✐ *!grupo • !group* [open / abrir]
-𝄄 ➣ Cambia ajustes del grupo para que todos los usuarios envien mensaje.
-𝄄
-𝄄 ✐ *!grupo • !gruop* [close / cerrar]
-𝄄 ➣ Cambia ajustes del grupo para que solo los administradores envien mensaje.
-𝄄
-𝄄 ✐ *!kick* [número / mension]
-𝄄 ➣ Elimina un usuario de un grupo.
-𝄄
-𝄄 ✐ *!add* [número]
-𝄄 ➣ Invita a un usuario a tu grupo.
-𝄄
-𝄄 ✐ *!promote* [mension / etiquetar]
-𝄄 ➣ El bot dara administrador al usuario mencionando.
-𝄄
-𝄄 ✐ *!demote* [mension / etiquetar]
-𝄄 ➣ El bot quitara administrador al usuario mencionando.
-𝄄
-𝄄 ✐ *!banchat*
-𝄄 ➣ El administrador apsga a ${botname}.
-𝄄
-𝄄 ✐ *!unbanchat*
-𝄄 ➣ Un administrador enciende a ${botname}.
-𝄄
-𝄄 ✐ *!poll • !encuesta*
-𝄄 ➣ El bot crea una encuesta.
-𝄄
-𝄄 ✐ *!hidetag*
-𝄄 ➣ Envia un mensaje mencionando a todos los usuarios
-𝄄
-𝄄 ✐ *!del • !delete*
-𝄄 ➣Elimina un mensaje mencionando 
-𝄄
-𝄄 ✐ *!fantasmas*
-𝄄 ➣ Revisión de usuarios sin enviar mensajes 
-𝄄
-𝄄 ✐ *!kickfantasmas*
-𝄄 ➣ Elimina a los usuarios que no an enviando mensajes 
-𝄄
-𝄄 ✐ *!tangall*
-𝄄 ➣ etiqueta a todos los usuarios 
-𝄄
-𝄄 ✐ *!kicknum* [+52/+54/+51]
-𝄄 ➣ Elemina a los usuarios con un prefijo
-𝄄
+││
+││ \`『 Info Grupos 』\`
+│╞═════𖠁☄︎𖠁═════
+││
+││ ✐ *!link*
+││ ➣ El bot envia el link del grupo.
+││
+││ ✐ *!mute* [mension / etiquetar]
+││ ➣ El bot elimina los mensajes del usuario.
+││
+││ ✐ *!unmute* [mension / etiquetar]
+││ ➣ El bot deja de eliminar los mensajes del usuario.
+││
+││ ✐ *!grupo • !group* [open / abrir]
+││ ➣ Cambia ajustes del grupo para que todos los usuarios envien mensaje.
+││
+││ ✐ *!grupo • !gruop* [close / cerrar]
+││ ➣ Cambia ajustes del grupo para que solo los administradores envien mensaje.
+││
+││ ✐ *!kick* [número / mension]
+││ ➣ Elimina un usuario de un grupo.
+││
+││ ✐ *!add* [número]
+││ ➣ Invita a un usuario a tu grupo.
+││
+││ ✐ *!promote* [mension / etiquetar]
+││ ➣ El bot dara administrador al usuario mencionando.
+││
+││ ✐ *!demote* [mension / etiquetar]
+││ ➣ El bot quitara administrador al usuario mencionando.
+││
+││ ✐ *!banchat*
+││ ➣ El administrador apsga a ${botname}.
+││
+││ ✐ *!unbanchat*
+││ ➣ Un administrador enciende a ${botname}.
+││
+││ ✐ *!poll • !encuesta*
+││ ➣ El bot crea una encuesta.
+││
+││ ✐ *!hidetag*
+││ ➣ Envia un mensaje mencionando a todos los usuarios
+││
+││ ✐ *!del • !delete*
+││ ➣Elimina un mensaje mencionando 
+││
+││ ✐ *!fantasmas*
+││ ➣ Revisión de usuarios sin enviar mensajes 
+││
+││ ✐ *!kickfantasmas*
+││ ➣ Elimina a los usuarios que no an enviando mensajes 
+││
+││ ✐ *!tangall*
+││ ➣ etiqueta a todos los usuarios 
+││
+││ ✐ *!kicknum* [+52/+54/+51]
+││ ➣ Elemina a los usuarios con un prefijo
+││
+│╰╴╴╴╴╴╴
 ╰┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙•●᪱•ٜ┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙͙͙͙┉ٜ͙͙͙͙͙͙┅ٜ͙͙͙͙͙━͙͙͙͙╾‌ࣩ┉꙰╮
 ╭─‌┈‌ׅ┉‌ׁ‌┈┉ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ─‌╯
-𝄄 \`『 Info Games 』\`
-𝄄
-𝄄 ✐ *!cancion*
-𝄄 ➣ Pide una canción responde y gana ${moneda}
-𝄄
-𝄄 ✐ *!pista • !hint*
-𝄄 ➣ Pide pista para responder tu canción 
-𝄄
-𝄄 ✐ *!ppt* [piedra/papel/tijera]
-𝄄 ➣ Juega ppt contra el bot y gana ${moneda}
-𝄄
-𝄄 ✐ *!acertijo*
-𝄄 ➣ Pide un acertijo responde y gana ${moneda}
-𝄄
-𝄄 ✐ *!mates • !math*
-𝄄 ➣ Responde a una pregunta matemática y gana ${moneda}
-𝄄
-𝄄 ✐ *!sopa • !soup*
-𝄄 ➣ Pide una sopa de letras responde y gana ${moneda}
-𝄄 
+││
+││ \`『 Info Games 』\`
+│╞═════𖠁☄︎𖠁═════
+││
+││ ✐ *!cancion*
+││ ➣ Pide una canción responde y gana ${moneda}
+││
+││ ✐ *!pista • !hint*
+││ ➣ Pide pista para responder tu canción 
+││
+││ ✐ *!ppt* [piedra/papel/tijera]
+││ ➣ Juega ppt contra el bot y gana ${moneda}
+││
+││ ✐ *!acertijo*
+││ ➣ Pide un acertijo responde y gana ${moneda}
+││
+││ ✐ *!mates • !math*
+││ ➣ Responde a una pregunta matemática y gana ${moneda}
+││
+││ ✐ *!sopa • !soup*
+││ ➣ Pide una sopa de letras responde y gana ${moneda}
+││
+│╰╴╴╴╴╴╴
 ╰┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙•●᪱•ٜ┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙͙͙͙┉ٜ͙͙͙͙͙͙┅ٜ͙͙͙͙͙━͙͙͙͙╾‌ࣩ┉꙰╮
 ╭─‌┈‌ׅ┉‌ׁ‌┈┉ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ─‌╯
-𝄄 \`『 Info Tools 』\`
-𝄄
-𝄄 ✐ *!hd*
-𝄄 ➣ Sube la calidad de tu imagen
-𝄄
-𝄄 ✐ *!read • !revelar*
-𝄄 ➣ El bot reenvia la foto o video de una sola vista
-𝄄
-𝄄 ✐ *!toimg*
-𝄄 ➣ El bot convierte un sticker a imagen
-𝄄
-𝄄 ✐ *!tomp4*
-𝄄 ➣ El bot convierte un sticker con movimiento a video
-𝄄
-𝄄 ✐ *!quemusica • !whatmusic*
-𝄄 ➣ Envia un audio o video y el bot investigara su información 
-
+│╭╴╴╴╴╴╴
+││ \`『 Info Tools 』\`
+│╞═════𖠁☄︎𖠁═════
+││
+││ ✐ *!hd*
+││ ➣ Sube la calidad de tu imagen
+││
+││ ✐ *!read • !revelar*
+││ ➣ El bot reenvia la foto o video de una sola vista
+││
+││ ✐ *!toimg*
+││ ➣ El bot convierte un sticker a imagen
+││
+││ ✐ *!tomp4*
+││ ➣ El bot convierte un sticker con movimiento a video
+││
+││ ✐ *!quemusica • !whatmusic*
+││ ➣ Envia un audio o video y el bot investigara su información 
+││
+│╰╴╴╴╴╴╴
 ╰┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙•●᪱•ٜ┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙͙͙͙┉ٜ͙͙͙͙͙͙┅ٜ͙͙͙͙͙━͙͙͙͙╾‌ࣩ┉꙰╮
 ╭─‌┈‌ׅ┉‌ׁ‌┈┉ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ─‌╯
-𝄄 \`『 Info Audios 』\`
-𝄄
-𝄄 ❀ No Hace Falta Poner El ! o ningun otro prefijo
-𝄄
-𝄄 ✐ \`*uwu • UwU*\`
-𝄄 ➣ Envia audio de nestras ayudantes
-𝄄
-𝄄 ✐ \`*onichan • oni-chan*\`
-𝄄 ➣ Envia audio de nuestras ayudantes
-𝄄
-𝄄 ✐ \`*fino señores*\`
-𝄄 ➣ Envia audio de fino señores
-𝄄
-𝄄 ✐ \`*sad*\`
-𝄄 ➣ Envia audio tristre
-𝄄
-𝄄 ✐ \`*buenos dias*\`
-𝄄 ➣ Envia audio
-𝄄
-𝄄 ✐ \`*buenas tardes*\`
-𝄄 ➣ Envia audio 
-𝄄
-𝄄 ✐ \`*buenas noches*\`
-𝄄 ➣ Envia audio
-𝄄
-𝄄 ✐ \`*bot puto • bot malpatido*\`
-𝄄 ➣ Envia audio
-𝄄
-𝄄 ✐ \`*rawr • rarw*\`
-𝄄 ➣ Envia audio
-𝄄
+│╭╴╴╴╴╴╴
+││ \`『 Info Audios 』\`
+│╞═════𖠁☄︎𖠁═════
+││
+││ ❀ No Hace Falta Poner El ! o ningun otro prefijo
+││
+││ ✐ \`*uwu • UwU*\`
+││ ➣ Envia audio de nestras ayudantes
+││
+││ ✐ \`*onichan • oni-chan*\`
+││ ➣ Envia audio de nuestras ayudantes
+││
+││ ✐ \`*fino señores*\`
+││ ➣ Envia audio de fino señores
+││
+││ ✐ \`*sad*\`
+││ ➣ Envia audio tristre
+││
+││ ✐ \`*buenos dias*\`
+││ ➣ Envia audio
+││
+││ ✐ \`*buenas tardes*\`
+││ ➣ Envia audio 
+││
+││ ✐ \`*buenas noches*\`
+││ ➣ Envia audio
+││
+││ ✐ \`*bot puto • bot malpatido*\`
+││ ➣ Envia audio
+││
+││ ✐ \`*rawr • rarw*\`
+││ ➣ Envia audio
+││
+│╰╴╴╴╴╴╴
 ╰┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙•●᪱•ٜ┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙͙͙͙┉ٜ͙͙͙͙͙͙┅ٜ͙͙͙͙͙━͙͙͙͙╾‌ࣩ┉꙰╮
 ╭─‌┈‌ׅ┉‌ׁ‌┈┉ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ─‌╯
-𝄄 \`『 Info Bot 』\`
-𝄄
-𝄄 ✐ *!tyc*
-𝄄 ➣ Términos y condiciones de ${botname}.
-𝄄
-𝄄 ✐ *!script*
-𝄄 ➣ Datos del bot original.
-𝄄
-𝄄 ✐ *!hostingpy • !skyplus • !tk-host • !Hosting • !host*
-𝄄 ➣ Los hosts oficiales de ${botname}.
-𝄄
-𝄄 ✐ *!ping • !p*
-𝄄 ➣ La velocidad de ${botname}.
-
-𝄄 ✐ *!staff*
-𝄄 ➣ El equipo de desarrollo de ${botname}.
-𝄄
-𝄄 ✐ *!addprem* [mension / etiquetar]
-𝄄 ➣ Un dueño da premium al usuario.
-𝄄
-𝄄 ✐ *!delprem* [mension / etiquetar]
-𝄄 ➣ Un dueño le quitara premium al usuario.
-𝄄
-𝄄 ✐ *!autoadmin*
-𝄄 ➣ El bot dara administrador al dueño.
-*╰┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙•●᪱•ٜ┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙͙͙͙┉ٜ͙͙͙͙͙͙┅ٜ͙͙͙͙͙━͙͙͙͙╾‌ࣩ┉꙰╮*
-*╭─‌┈‌ׅ┉‌ׁ‌┈┉ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ─‌╯*
-𝄄 *✰ ${dev}*
-𝄄 *» ${pickRandom(global.piropo)}*
+││╭╴╴╴╴╴╴
+││ \`『 Info Bot 』\`
+│╞═════𖠁☄︎𖠁═════
+││
+││ ✐ *!tyc*
+││ ➣ Términos y condiciones de ${botname}.
+││
+││ ✐ *!script*
+││ ➣ Datos del bot original.
+││
+││ ✐ *!hostingpy • !skyplus • !tk-host • !Hosting • !host*
+││ ➣ Los hosts oficiales de ${botname}.
+││
+││ ✐ *!ping • !p*
+││ ➣ La velocidad de ${botname}.
+││
+││ ✐ *!staff*
+││ ➣ El equipo de desarrollo de ${botname}.
+││
+││ ✐ *!addprem* [mension / etiquetar]
+││ ➣ Un dueño da premium al usuario.
+││
+││ ✐ *!delprem* [mension / etiquetar]
+││ ➣ Un dueño le quitara premium al usuario.
+││
+││ ✐ *!autoadmin*
+││ ➣ El bot dara administrador al dueño.
+││
+│╰╴╴╴╴╴╴
+╰┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙•●᪱•ٜ┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙┄ٜ͙͙͙͙͙┉ٜ͙͙͙͙͙͙┅ٜ͙͙͙͙͙━͙͙͙͙╾‌ࣩ┉꙰╮
+╭─‌┈‌ׅ┉‌ׁ‌┈┉ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ┉‌ׁ‌┈‌ׅ─‌╯
+│╭╴╴╴╴╴╴
+││ *✰ ${dev}*
+│╞═════𖠁☄︎𖠁═════
+││ *» ${pickRandom(global.piropo)}*
+│╰╴╴╴╴╴╴
 ╰─┈➤ ${botname}
   `.trim();
 
