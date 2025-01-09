@@ -8,7 +8,7 @@ m.react('🕒');
 await conn.sendMessage(m.chat, {text: '*🧑‍💻 Espere, Estamos Trabajando en su imagen*'}, {quoted: m});
 try {
 // Hacemos la solicitud a la API con el texto proporcionado
-const response = await fetch(`https://api.dorratz.com/v3/text-image?text=api.dorratz.com&fontSize=${encodeURIComponent(text)}`);
+const response = await fetch(`https://api.dorratz.com/v3/text-image?text=${encodeURIComponent(text)}&fontSize=50`);
 // Verificamos si la respuesta fue exitosa
 if (!response.ok) throw new Error('Network response was not ok');
 // Obtenemos el buffer de la imagen
