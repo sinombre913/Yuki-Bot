@@ -39,8 +39,8 @@ let staff = `✐ *EQUIPO DE AYUDANTES*
 ✐ *Enlaces Del Creador:*
 ✰ *Canal:* https://whatsapp.com/channel/0029VaMi8cn9cDDQaoeY7P3u
 ✰ *Grupo:* https://chat.whatsapp.com/BKVsY0Q1X8d6DWQVx3mp2J`
-let videourl = ''
-await conn.sendMessage(m.chat, { video: { url: videourl }, gifPlayback: true, caption: staff.trim() }, {
+
+await conn.sendMessage(m.chat, { video: { url: videourl }, gifPlayback: true, caption: staff.trim(),
 contextInfo: {
 'forwardingScore': 200,
 'isForwarded': false,
