@@ -503,21 +503,20 @@ let MenuText = `╭┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄�
 ╰─┈➤ ${botname}
   `.trim();
 
-  await conn.sendMessage(m.chat, { 
-    text: MenuText,
-    contextInfo: {
-      mentionedJid: [userId],
-      externalAdReply: {
-        title: botname,
-        body: textbot,
-        thumbnailUrl: banner,
-        sourceUrl: enlace,
-        mediaType: 1,
-        showAdAttribution: true,
-        renderLargerThumbnail: true
-      }
-    }
-  }, { quoted: m })
+  await conn.sendMessage(m.chat, { video: { url: videourl }, gifPlayback: true, caption: MenuText.trim(),
+contextInfo: {
+'forwardingScore': 200,
+'isForwarded': false,
+externalAdReply: {
+showAdAttribution: true,
+renderLargerThumbnail: false,
+title: `✐ Menu ${botname}`,
+body: `🜸 ${dev}`,
+mediaType: 1,
+sourceUrl: enlace,
+thumbnailUrl: catalogo 
+}}
+}, { mentions: [userId] })
 };
 
 handler.help = ['menu'];
