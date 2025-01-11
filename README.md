@@ -234,16 +234,16 @@ Contacta Con ઈ𓅇𝐂𝐮𝐞𝐫𝐯𝐨𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐎𝐅
 ---
 
 ### **`✰ COLABORADORES`**
-<a href="https://github.com/Nimodo83/Yue-Bot/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=Nimodo83/Yue-Bot" /> 
+<a href="https://github.com/sinombre913/Yuki-Bot/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=sinombre913/Yuki-Bot" /> 
 </a>
 
 ### **`✐ PROPIETARIO`**
 <a
-href="https://github.com/Nimodo83"><img src="https://github.com/Nimodo83.png" width="130" height="130" alt="ઈ𓅇𝐂𝐮𝐞𝐫𝐯𝐨𝐎𝐅𝐂𓆰ࣩ֟፝𓆪"/></a>
+href="https://github.com/sinombre913"><img src="https://github.com/sinombre913.png" width="130" height="130" alt="ઈ𓅇𝐂𝐮𝐞𝐫𝐯𝐨𝐎𝐅𝐂𓆰ࣩ֟፝𓆪"/></a>
 
 ### **`🜸 CREDITOS`**
 <a
-href="https://github.com/OfcKing"><img src="https://github.com/OfcKing.png" width="130" height="130" alt="Dev-Diego"/></a>
+href="https://github.com/Nimodo83"><img src="https://github.com/Nimodo83.png" width="130" height="130" alt="Dev-Diego"/></a>
 
 [© Powered By Cuervo-Team-Supreme ✰](https://whatsapp.com/channel/0029VaMi8cn9cDDQaoeY7P3u)
