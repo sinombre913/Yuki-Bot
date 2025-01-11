@@ -69,8 +69,8 @@ global.welcom3 = 'Edita Con !seteliminada'
 global.banner = ''
 global.catalogo = ''
 global.videourl = ''
-global.videostaff = ''
-global.videowelcom = ''
+global.videostaff = 'https://zero-two.info/uploads/videos/file-1736578456484-730969673.mp4'
+global.videoxd = ''
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
