@@ -46,28 +46,31 @@ global.libreria = 'Baileys'
 global.baileys = 'V 6.7.5'
 global.vs = '2.0.7'
 global.vsJB = '5.0'
-global.nameqr = 'Yue-Bot'
-global.namebot = 'YueBot'
-global.sessions = 'YueSession'
-global.jadi = 'YueJadiBot'
+global.nameqr = 'Yuki-Bot'
+global.namebot = 'YukiBot'
+global.sessions = 'YukiSession'
+global.jadi = 'YukiJadiBot'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = '⪛✰ Yue-Bot ✰⪜'
-global.botname = 'Yue-Bot'
-global.wm = 'Yue-Bot'
+global.packname = '⪛✰ Yuki-Bot ✰⪜'
+global.botname = 'Yuki-Bot'
+global.wm = 'Yuki-Bot'
 global.author = 'Made By Cuervo-Team-Supreme'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ: Yue-Bot'
-global.textbot = 'Yue-Bot • Powered By Cuervo-Team-Supreme'
-global.moneda = 'COINS'
+global.dev = '© ⍴᥆ᥕᥱrᥱძ: Yuki-Bot'
+global.textbot = 'Yuki-Bot • Powered By Cuervo-Team-Supreme'
+global.moneda = 'Yuanes'
 global.welcom1 = 'Edita Con !setwelcome'
 global.welcom2 = 'Edita Con !setdespedida'
 global.welcom3 = 'Edita Con !seteliminada'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.banner = 'https://files.catbox.moe/8b91ry.jpg'
-global.catalogo = 'https://files.catbox.moe/4d5ba7.jpg'
+global.banner = ''
+global.catalogo = ''
+global.videourl = ''
+global.videostaff = ''
+global.videowelcom = ''
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
