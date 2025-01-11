@@ -39,7 +39,8 @@ let staff = `✐ *EQUIPO DE AYUDANTES*
 ✐ *Enlaces Del Creador:*
 ✰ *Canal:* https://whatsapp.com/channel/0029VaMi8cn9cDDQaoeY7P3u
 ✰ *Grupo:* https://chat.whatsapp.com/BKVsY0Q1X8d6DWQVx3mp2J`
-await conn.sendFile(m.chat, catalogo, 'yotsuba.jpg', staff.trim(), fkontak, true, {
+let videourl = ''
+await conn.sendMessage(m.chat, { video: { url: videourl }, gifPlayback: true, caption: staff.trim() }, {
 contextInfo: {
 'forwardingScore': 200,
 'isForwarded': false,
@@ -55,7 +56,7 @@ thumbnailUrl: catalogo
 }, { mentions: m.sender })
 }
 handler.help = ['staff']
-handler.command = ['colaboradores', 'staff']
+handler.command = ['prueba', 't']
 handler.register = true
 handler.tags = ['main']
 
