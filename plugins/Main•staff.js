@@ -18,6 +18,7 @@ let staff = `✐ *EQUIPO DE AYUDANTES*
 🜸 *Rol:* Creador
 🜸 *Número:* wa.me/5213318360934
 🜸 *GitHub:* https://github.com/Nimodo83/Yue-Bot
+🜸 *GitHub2:* https://github.com/sinombre913/Yuki-Bot
 
 ✐ *Colaboradores:*
 
@@ -40,7 +41,7 @@ let staff = `✐ *EQUIPO DE AYUDANTES*
 ✰ *Canal:* https://whatsapp.com/channel/0029VaMi8cn9cDDQaoeY7P3u
 ✰ *Grupo:* https://chat.whatsapp.com/BKVsY0Q1X8d6DWQVx3mp2J`
 
-await conn.sendMessage(m.chat, { video: { url: videourl }, gifPlayback: true, caption: staff.trim(),
+await conn.sendMessage(m.chat, { video: { url: videostaff }, gifPlayback: true, caption: staff.trim(),
 contextInfo: {
 'forwardingScore': 200,
 'isForwarded': false,
