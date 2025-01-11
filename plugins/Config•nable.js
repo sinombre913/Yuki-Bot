@@ -196,7 +196,7 @@ const handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, i
         global.dfail('admin', m, conn);
         throw false;
       }
-      isEnable = chat.detect = !chat.detect;
+      isEnable = chat.eventos = !chat.eventos;
       break;
 
     case 'simi':
