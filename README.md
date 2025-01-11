@@ -1,12 +1,12 @@
 
-<h2 align="center">✐ Yue-Bot</h2>
+<h2 align="center">✐ Yuki-Bot</h2>
 
 <p align="center">🜸 WhatsApp Bot Node-Js.</p>
 </p>
 
 <h2 align="center">✐ Buenas Yo Sinombre913 Formo Parte Del Cuervo-Team-Supreme Por Lo Que Este Bot Es Oficial De Cuervo-Team-Supreme Cualquier Duda Es Con Cuervo</h2>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF00FF&lines=©+Yue-Bot;©+Powered+By+ઈ𓅇𝐂𝐮𝐞𝐫𝐯𝐨𝐎𝐅𝐂𓆰ࣩ֟፝𓆪)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF00FF&lines=©+Yuki-Bot;©+Powered+By+ઈ𓅇𝐂𝐮𝐞𝐫𝐯𝐨𝐎𝐅𝐂𓆰ࣩ֟፝𓆪)](https://git.io/typing-svg)
 Contacta Con ઈ𓅇𝐂𝐮𝐞𝐫𝐯𝐨𝐎𝐅𝐂𓆰ࣩ֟፝𓆪
 
 <a href="http://wa.me/5213318360934" target="blank"><img src="https://img.shields.io/badge/Cuervo-Owner-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
