@@ -503,7 +503,7 @@ let MenuText = `╭┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄�
 ╰─┈➤ ${botname}
   `.trim();
 
-  await conn.sendMessage(m.chat, { video: { url: videourl }, gifPlayback: true, caption: MenuText.trim(),
+  await conn.sendMessage(m.chat, { video: { url: videomenu }, gifPlayback: true, caption: MenuText.trim(),
 contextInfo: {
 'forwardingScore': 200,
 'isForwarded': false,
