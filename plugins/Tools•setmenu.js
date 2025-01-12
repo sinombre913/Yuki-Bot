@@ -57,9 +57,9 @@ const isImageValid = (buffer) => {
   return false; 
 };
 
-handler.help = ['setbanner'];
+handler.help = ['setmenu'];
 handler.tags = ['tools'];
-handler.command = ['setbanner'];
+handler.command = ['setmenu'];
 handler.owner = true;
 
 export default handler;
