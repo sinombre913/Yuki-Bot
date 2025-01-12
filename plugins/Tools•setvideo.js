@@ -27,11 +27,11 @@ let handler = async (m, { conn, isRowner }) => {
 
    global.videourl = `${link}`;  
 
-    await conn.sendFile(m.chat, media, 'banner.jpg', '✐ Banner actualizado.', m);
+    await conn.sendFile(m.chat, media, 'video.mp4', '✐ video actualizado.', m);
 
   } catch (error) {
     console.error(error);
-    m.reply('✧ Hubo un error al intentar cambiar el banner.');
+    m.reply('✧ Hubo un error al intentar cambiar el video.');
   }
 };
 
@@ -57,7 +57,7 @@ const isImageValid = (buffer) => {
   return false; 
 };
 
-handler.help = [setbvidro'];
+handler.help = ['setbvidro'];
 handler.tags = ['tools'];
 handler.command = ['setvideo'];
 handler.owner = true;
