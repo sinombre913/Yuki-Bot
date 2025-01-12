@@ -20,7 +20,7 @@ const require = createRequire(__dirname);
 const { name, description, author, version } = require(join(__dirname, './package.json'));
 const { say } = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
-say('Yue-Bot', {
+say('Yuki-Bot', {
 font: 'block',
 align: 'center',
 colors: ['red']
@@ -84,4 +84,4 @@ console.warn('🚩 Se excedió el límite de Listeners en:');
 console.warn(warning.stack);
 }
 });
-start('start-yue.js');
+start('start-yuki.js');
