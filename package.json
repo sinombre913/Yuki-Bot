@@ -1,5 +1,5 @@
 {
-"name": "Yue-Bot",
+"name": "Yuki-Bot",
 "version": "1.0.0",
 "description": "Simple WhatsApp Bot Multi Device",
 "main": "index.js",
@@ -18,16 +18,16 @@
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/Nimodo83/Yue-Bot",
+"homepage": "https://github.com/sinombre913/Yuki-Bot",
 "author": {
-"name": "Nimodo83"
+"name": "sinombre913"
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/Nimodo83/Yue-Bot.git"
+"url": "git+https://github.com/sinombre913/Yuki-Bot.git"
 },
 "bugs": {
-"url": "https://github.com/Nimodo83/Yue-Bot/issues"
+"url": "https://github.com/sinombre913/Yuki-Bot/issues"
 },
 "license": "GPL-3.0-or-later",
 "dependencies": {
