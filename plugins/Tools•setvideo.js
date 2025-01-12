@@ -57,7 +57,7 @@ const isImageValid = (buffer) => {
   return false; 
 };
 
-handler.help = ['setbvidro'];
+handler.help = ['setvideo'];
 handler.tags = ['tools'];
 handler.command = ['setvideo'];
 handler.owner = true;
