@@ -15,7 +15,21 @@ let handler = async (m, { conn }) => {
           let child = stdout.toString("utf-8");
           let ssd = child.replace(/Memory:/, "Ram:");
 
-          conn.reply(m.chat, `✐ *Pong* ${latensi.toFixed(4)} ms`, m);
+          let txtp = `✐ *Pong* ${latensi.toFixed(4)} ms`
+ await conn.sendMessage(m.chat, { video: { url: videourl }, gifPlayback: true, caption: txtp,
+contextInfo: {
+'forwardingScore': 200,
+'isForwarded': false,
+externalAdReply: {
+showAdAttribution: true,
+renderLargerThumbnail: false,
+title: `${txtp}`,
+body: `🜸 ${dev}`,
+mediaType: 1,
+sourceUrl: enlace,
+thumbnailUrl: catalogo 
+}}
+}, { mentions: m.sender })
             });
 }
 handler.help = ['ping']
