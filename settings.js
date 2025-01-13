@@ -66,11 +66,11 @@ global.welcom3 = 'Edita Con !seteliminada'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.banner = ''
-global.catalogo = ''
-global.videourl = ''
+global.banner = 'https://zero-two.info/uploads/images/file-1736729771151-489455300.jpeg'
+global.catalogo = 'https://zero-two.info/uploads/images/file-1736729735623-298961205.jpg'
+global.videourl = 'https://zero-two.info/uploads/videos/file-1736729624275-226291402.mp4'
 global.videostaff = 'https://zero-two.info/uploads/videos/file-1736578456484-730969673.mp4'
-global.videomenu = ''
+global.videomenu = 'https://zero-two.info/uploads/videos/file-1736729517661-790517740.mp4'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
